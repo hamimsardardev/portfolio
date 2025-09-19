@@ -1,10 +1,23 @@
 import React from 'react'
+import Navber from './components/navber'
+import Banner from './components/banner'
+import ProfessionalPart from './components/professionalPart'
+import WorkPart from './components/workPart'
+import Portfolio from './components/portfolio'
+import ProjectIdea from './components/projectIdea'
+import Blog from './components/blog'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ut.</h1>
-    </div>
+    <>
+    <Navber/>
+    <Banner/>
+    <ProfessionalPart/>
+    <WorkPart/>
+    <Portfolio/>
+    <ProjectIdea/>
+    <Blog/>
+    </>
   )
 }
 

@@ -1,15 +1,26 @@
 @import "tailwindcss";
 
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+.button{
+  @apply px-[40px] py-[12px] bg-gradient-to-r from-[#A53DFF] to-[#A53DFF] rounded-[8px] cursor-pointer font-geist font-bold text-[16px] text-white border-2 border-transparent transition duration-300 hover:bg-none hover:bg-transparent hover:text-[#A53DFF] hover:border-[#A53DFF] 
+}
+.buttontwo{
+  @apply px-[40px] py-[12px] font-bold text-[16px] font-geist text-[#A53DFF] bg-white border-2 border-[#A53DFF] cursor-pointer rounded-[8px] hover:bg-[#A53DFF] hover:border-transparent hover:text-[#A53DFF] hover:text-white
+}
 :root {
-  --background: #292F36;
-  --primarycolor: #98FAEC;
+  --background: #FFFFFF;
+  --primarycolor: #132238;
+  --seconerycolor: #556070;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-primary: var(--primarycolor);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-secondery: var(--seconerycolor);
+  --font-geist: var(--font-geist);
 }
 
 body {
