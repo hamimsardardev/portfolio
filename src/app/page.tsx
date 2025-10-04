@@ -6,6 +6,8 @@ import WorkPart from './components/workPart'
 import Portfolio from './components/portfolio'
 import ProjectIdea from './components/projectIdea'
 import Blog from './components/blog'
+import DoPart from './components/doPart'
+import ClientsPart from './components/clientsPart'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
     <Portfolio/>
     <ProjectIdea/>
     <Blog/>
+    <DoPart/>
+    <ClientsPart/>
     </>
   )
 }

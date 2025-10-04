@@ -55,7 +55,7 @@ const ProfessionalPart = () => {
                   I design and develop services for customers specializing
                   creating stylish, modern websites, web services and online
                   stores. My passion is to design digital user experiences.
-                  <span className="block font-geist text-[18px] font-regular leading-[24px] text-secondary mt-4 mb-8">
+                  <span className="block font-geist text-[18px] font-regular leading-[24px] text-secondery mt-4 mb-8">
                     I design and develop services for customers specializing
                     creating stylish, modern websites, web services.
                   </span>
