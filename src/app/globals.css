@@ -8,10 +8,10 @@
   margin: 0 auto;
 }
 .button {
-  @apply px-[40px] py-[12px] bg-primary rounded-[8px] cursor-pointer font-dmSans font-bold text-[16px] text-white border-2 border-transparent transition duration-300 hover:bg-none hover:bg-transparent hover:text-primary hover:border-primary;
+  @apply px-[40px] py-[12px] bg-primary rounded-[8px] cursor-pointer font-roboto text-[14px] font-semibold leading-[21px] text-primarytwo border-2 border-transparent transition duration-300 hover:bg-none hover:bg-transparent hover:text-primary hover:border-primary;
 }
 .buttontwo {
-  @apply px-[40px] py-[12px] font-bold text-[16px] font-dmSans text-primary bg-white border-2 border-primary cursor-pointer rounded-[8px] hover:bg-primary hover:border-transparent hover:text-primary hover:text-white;
+  @apply px-[20px] py-[12px] font-bold text-[16px] font-roboto text-primary bg-primarytwo border-2 border-primary cursor-pointer rounded-[8px] hover:bg-primary hover:border-transparent hover:text-primarytwo;
 }
 :root {
   --primarycolor: #138086;

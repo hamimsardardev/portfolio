@@ -8,13 +8,13 @@ const ClientsPart = () => {
       <section className="py-[100px] bg-[#FFFFFF]">
         <div className="container">
           <div className="text-center">
-            <h3 className="font-dmSans text-[28px] font-semibold leading-[56px] text-thirdcolor">
+            <h3 className="font-roboto text-[28px] font-semibold leading-[56px] text-thirdcolor">
               Companies worked
             </h3>
-            <h4 className="font-dmSans text-[48px] font-semibold leading-[56px] text-primary">
-              companies I have work with
+            <h4 className="font-roboto text-[48px] font-semibold leading-[56px] text-primary">
+              Companies I have work with
             </h4>
-            <p className="font-dmSans text-[18px] font-medium leading-[24px] my-6 text-secondery mx-auto w-[577px]">
+            <p className="font-roboto text-[18px] font-medium leading-[24px] my-6 text-secondery mx-auto w-[577px]">
               I’ve been working asweb developer for the past two years & have experience in multiple frameworks. I’m passionate about creating high quality products and beautiful user interfaces, giving my users the best experience they could possibly expect.
             </p>
           </div>

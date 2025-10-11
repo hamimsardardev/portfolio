@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex justify-between items-center py-[36px]">
             <div>
               <Image src="/Logo.png" alt="Logo" height={56} width={181} />
-              <p className="font-dmSans text-[18px] font-normal leading-[24px] mt-4 text-primarytwo w-[420px]">
+              <p className="font-roboto text-[18px] font-normal leading-[24px] mt-4 text-primarytwo w-[420px]">
                 I've been working as web developer for the past two years, and
                 have experience in multiple framework
               </p>
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                className="font-dmSans text-[24px] font-semibold text-primarytwo leading-[24px] border-b border-primarytwo pb-1"
+                className="font-roboto text-[24px] font-semibold text-primarytwo leading-[24px] border-b border-primarytwo pb-1"
                 href="#"
               >
                 hamimsardar118677@gmail.com
@@ -57,7 +57,7 @@ const Footer = () => {
         <div>
           <div className="border-t border-primarytwo">
             <div className="container">
-              <p className="font-dmSans text-primarytwo text-center text-[18px] font-normal py-[30px] leading-[24px]">
+              <p className="font-roboto text-primarytwo text-center text-[18px] font-normal py-[30px] leading-[24px]">
                 Copyright © 2025 Personal Portfolio
               </p>
             </div>

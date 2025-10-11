@@ -12,24 +12,25 @@ const Contact_Part = () => {
           <div className="bg-[#F0F1F3] rounded-[15px]">
             <div className="grid grid-cols-2 px-[88px] py-[88px]">
               <div>
-                <h3 className="font-dmSans text-[38px] font-semibold leading-[50px] text-primary">
+                <h3 className="font-roboto text-[38px] font-semibold leading-[50px] text-primary">
                   Let’s discuss your Project
                 </h3>
-                <p className="font-dmSans text-[18px] font-normal leading-[24px] text-secondery mt-4  w-[481px] ">
+                <p className="font-roboto text-[18px] font-normal leading-[24px] text-secondery mt-4  w-[481px] ">
                   There are many variations of passages of Lorem Ipsu available.
                   but the majority have suffered alte.
                 </p>
                 <div className="py-[35px]">
+                  {" "}
                   <div className="w-[390px]">
                     <div className="flex gap-[13px] py-6 pl-6   items-center rounded-[10px] hover:shadow-xl/20 hover:bg-white ">
-                      <div className="group py-[20px] px-[20px] bg-[#EDD8FF]/50 inline-block rounded-[6px] hover:bg-[#A53DFF]">
-                        <MdOutlineLocationOn className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
+                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] hover:bg-primary">
+                        <MdOutlineLocationOn className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                       </div>
                       <div>
-                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Address:
                         </p>
-                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-primary">
                           New Mexico 31134
                         </h5>
                       </div>
@@ -37,14 +38,14 @@ const Contact_Part = () => {
                   </div>
                   <div className="w-[390px]">
                     <div className="flex gap-[13px] py-6 pl-6   items-center rounded-[10px] hover:shadow-xl/20 hover:bg-white ">
-                      <div className="group py-[20px] px-[20px] bg-[#EDD8FF]/50 inline-block rounded-[6px] hover:bg-[#A53DFF]">
-                        <MdOutlineMarkEmailUnread className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
+                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] hover:bg-primary">
+                        <MdOutlineMarkEmailUnread className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                       </div>
                       <div>
-                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Email:
                         </p>
-                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-primary">
                           hamimsardar@118677@gmail.com
                         </h5>
                       </div>
@@ -52,43 +53,43 @@ const Contact_Part = () => {
                   </div>
                   <div className="w-[390px]">
                     <div className="flex gap-[13px] py-6 pl-6   items-center rounded-[10px] hover:shadow-xl/20 hover:bg-white ">
-                      <div className="group py-[20px] px-[20px] bg-[#EDD8FF]/50 inline-block rounded-[6px] hover:bg-[#A53DFF]">
-                        <MdAddCall className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
+                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] hover:bg-primary">
+                        <MdAddCall className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                       </div>
                       <div>
-                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Contact:
                         </p>
-                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-primary">
                           +8801703-949775
                         </h5>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="py-3 px-3 bg-[#F0F1F3] inline-block rounded-[8px] ">
+                <div className="py-3 px-3 bg-primary inline-block rounded-[8px]">
                   <ul className="flex gap-2 ">
-                    <li className="py-[15px] px-[15px] text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white">
+                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaFacebookF className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white">
+                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaDribbble className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white">
+                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
                       <a href="">
                         <IoLogoInstagram className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white">
+                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaLinkedin className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-[#A53DFF] hover:bg-[#A53DFF] hover:text-white">
+                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaBehance className="h-[20px] w-[20px]" />
                       </a>
@@ -97,7 +98,7 @@ const Contact_Part = () => {
                 </div>
               </div>
               <div>
-                <p className="font-dmSans text-[18px] font-normal leading-[24px] text-secondery w-[560px]">
+                <p className="font-roboto text-[18px] font-normal leading-[24px] text-secondery w-[560px]">
                   There are many variations of passages of Lorem Ipsu available,
                   but the majority have suffered alte.
                 </p>
