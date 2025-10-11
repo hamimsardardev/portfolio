@@ -7,14 +7,14 @@ const DoPart = () => {
         <div className="container">
           <div className="grid grid-cols-2">
             <div>
-              <h2 className="font-geist text-[48px] font-semibold pb-6 leading-[56px] text-primary">
+              <h2 className="font-dmSans text-[48px] font-semibold pb-6 leading-[56px] text-primary">
                 What I do?
               </h2>
-              <p className="font-geist text-[18px] font-normal leading-[24px] text-secondery [w-529px]">
+              <p className="font-dmSans text-[18px] font-normal leading-[24px] text-secondery [w-529px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 purus arcu, varius eget velit non, laoreet imperdiet orci.
                 Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
-                <span className="block font-geist text-[18px] mt-4 font-normal leading-[24px]">
+                <span className="block font-dmSans text-[18px] mt-4 font-normal leading-[24px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   purus arcu, varius eget velit non.
                 </span>

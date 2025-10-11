@@ -12,10 +12,10 @@ const Contact_Part = () => {
           <div className="bg-[#F0F1F3] rounded-[15px]">
             <div className="grid grid-cols-2 px-[88px] py-[88px]">
               <div>
-                <h3 className="font-geist text-[38px] font-semibold leading-[50px] text-primary">
+                <h3 className="font-dmSans text-[38px] font-semibold leading-[50px] text-primary">
                   Let’s discuss your Project
                 </h3>
-                <p className="font-geist text-[18px] font-normal leading-[24px] text-secondery mt-4  w-[481px] ">
+                <p className="font-dmSans text-[18px] font-normal leading-[24px] text-secondery mt-4  w-[481px] ">
                   There are many variations of passages of Lorem Ipsu available.
                   but the majority have suffered alte.
                 </p>
@@ -26,10 +26,10 @@ const Contact_Part = () => {
                         <MdOutlineLocationOn className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
                       </div>
                       <div>
-                        <p className="font-geist text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Address:
                         </p>
-                        <h5 className="font-geist text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
                           New Mexico 31134
                         </h5>
                       </div>
@@ -41,10 +41,10 @@ const Contact_Part = () => {
                         <MdOutlineMarkEmailUnread className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
                       </div>
                       <div>
-                        <p className="font-geist text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Email:
                         </p>
-                        <h5 className="font-geist text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
                           hamimsardar@118677@gmail.com
                         </h5>
                       </div>
@@ -56,10 +56,10 @@ const Contact_Part = () => {
                         <MdAddCall className="h-[32px] w-[32px] text-[#A53DFF] group-hover:text-white transition-all duration-300" />
                       </div>
                       <div>
-                        <p className="font-geist text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-dmSans text-[18px] font-normal leading-[20px] mb-1 text-secondery">
                           Contact:
                         </p>
-                        <h5 className="font-geist text-[16px] font-medium leading-[24px] text-primary">
+                        <h5 className="font-dmSans text-[16px] font-medium leading-[24px] text-primary">
                           +8801703-949775
                         </h5>
                       </div>
@@ -97,7 +97,7 @@ const Contact_Part = () => {
                 </div>
               </div>
               <div>
-                <p className="font-geist text-[18px] font-normal leading-[24px] text-secondery w-[560px]">
+                <p className="font-dmSans text-[18px] font-normal leading-[24px] text-secondery w-[560px]">
                   There are many variations of passages of Lorem Ipsu available,
                   but the majority have suffered alte.
                 </p>

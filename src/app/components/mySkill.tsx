@@ -6,7 +6,7 @@ const MySkill = () => {
     <>
       <section className="pb-[100px]">
         <div className="container">
-          <div className="font-geist text-[48px] font-bold leading-[26px] text-primary  text-center mb-[50px]">
+          <div className="font-dmSans text-[48px] font-bold leading-[26px] text-primary  text-center mb-[50px]">
             <h4 className="mb-[50px]">My Skills</h4>
             <div>
               <div className="flex gap-[103px] justify-center items-center">

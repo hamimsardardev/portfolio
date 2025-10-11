@@ -8,12 +8,14 @@ const ClientsPart = () => {
       <section className="py-[100px] bg-[#FFFFFF]">
         <div className="container">
           <div className="text-center">
-            <h3 className="font-geist text-[48px] font-semibold leading-[56px] text-primary">
-              Happy Clients
+            <h3 className="font-dmSans text-[28px] font-semibold leading-[56px] text-thirdcolor">
+              Companies worked
             </h3>
-            <p className="font-geist text-[18px] font-medium leading-[24px] my-6 text-secondery mx-auto w-[577px]">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration.
+            <h4 className="font-dmSans text-[48px] font-semibold leading-[56px] text-primary">
+              companies I have work with
+            </h4>
+            <p className="font-dmSans text-[18px] font-medium leading-[24px] my-6 text-secondery mx-auto w-[577px]">
+              I’ve been working asweb developer for the past two years & have experience in multiple frameworks. I’m passionate about creating high quality products and beautiful user interfaces, giving my users the best experience they could possibly expect.
             </p>
           </div>
           <div>

@@ -7,11 +7,11 @@ const Testmonial = () => {
       <section className="py-[100px]">
         <div className="container">
           <div className="text-center flex flex-col items-center justify-center mb-[50px]">
-            <h3 className="font-geist text-[48px] font-semibold leading-[22px] text-primary">
+            <h3 className="font-dmSans text-[48px] font-semibold leading-[22px] text-primary">
               Testimonial
             </h3>
 
-            <p className="font-geist text-[18px] font-medium leading-[24px] my-6 text-secondery max-w-[577px]">
+            <p className="font-dmSans text-[18px] font-medium leading-[24px] my-6 text-secondery max-w-[577px]">
               Appreciations from my clients
             </p>
           </div>

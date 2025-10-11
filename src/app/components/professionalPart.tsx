@@ -48,14 +48,14 @@ const ProfessionalPart = () => {
             </div>
             <div>
               <div>
-                <h2 className="font-geist text-[38px] font-semibold leading-[50px] text-primary mb-8 w-[536px]">
+                <h2 className="font-dmSans text-[38px] font-semibold leading-[50px] text-primary mb-8 w-[536px]">
                   I am Professional User Experience Designer
                 </h2>
-                <p className="font-geist text-[18px] font-regular leading-[24px] text-secondery">
+                <p className="font-dmSans text-[18px] font-regular leading-[24px] text-secondery">
                   I design and develop services for customers specializing
                   creating stylish, modern websites, web services and online
                   stores. My passion is to design digital user experiences.
-                  <span className="block font-geist text-[18px] font-regular leading-[24px] text-secondery mt-4 mb-8">
+                  <span className="block font-dmSans text-[18px] font-regular leading-[24px] text-secondery mt-4 mb-8">
                     I design and develop services for customers specializing
                     creating stylish, modern websites, web services.
                   </span>

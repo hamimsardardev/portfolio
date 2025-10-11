@@ -37,10 +37,10 @@ export function CarouselSize() {
                   className="rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6">
-                  <h4 className="font-geist text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-geist text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -62,10 +62,10 @@ export function CarouselSize() {
                   className="rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6">
-                  <h4 className="font-geist text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-geist text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -87,10 +87,10 @@ export function CarouselSize() {
                   className="rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6">
-                  <h4 className="font-geist text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-geist text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -112,10 +112,10 @@ export function CarouselSize() {
                   className="rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6">
-                  <h4 className="font-geist text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-geist text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -135,10 +135,10 @@ export function CarouselSize() {
                   className="rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6">
-                  <h4 className="font-geist text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-geist text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>

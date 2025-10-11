@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { DM_Serif_Display, Roboto} from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist",
-  subsets: ["latin"],
+
+const dmSans = DM_Serif_Display({
+  variable: "--font-dmSans",
+  subsets: ["latin"], 
+  weight: "400",
+});
+const roboto = Roboto({
+  variable: "--font-roboto",
+  subsets: ["latin"], 
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+      <body className={`${dmSans.variable} ${roboto.variable}`}>{children}</body>
     </html>
   );
 }

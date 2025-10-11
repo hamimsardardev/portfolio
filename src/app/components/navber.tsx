@@ -11,20 +11,20 @@ const Navber = () => {
               <Image src="/Logo.png" alt="Logo" height={56} width={181} />
             </div>
             <div>
-              <ul className="flex justify-between gap-[60px] py-[10px] font-geist text-secondery text-[20px]">
-                <li className=" hover:text-[#A53DFF]">
+              <ul className="flex justify-between gap-[60px] py-[10px] font-roboto text-primary text-[20px]">
+                <li className=" hover:text-third">
                   <a href="#">Home</a>
                 </li>
-                <li className=" hover:text-[#A53DFF]">
+                <li className=" hover:text-third">
                   <a href="#">About</a>
                 </li>
-                <li className=" hover:text-[#A53DFF]">
+                <li className=" hover:text-third">
                   <a href="#">Portfolio</a>
                 </li>
-                <li className=" hover:text-[#A53DFF]">
+                <li className=" hover:text-third">
                   <a href="#">Blog</a>
                 </li>
-                <li className=" hover:text-[#A53DFF]">
+                <li className=" hover:text-third">
                   <a href="#">Services</a>
                 </li>
               </ul>
