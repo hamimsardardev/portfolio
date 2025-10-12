@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
@@ -9,10 +11,26 @@ const Banner = () => {
           <div className="grid grid-cols-2 pt-[220px]">
             <div className="">
               <h1 className="font-dmSans text-[48px] font-normal leading-[57.6px] text-primary">
-                <span className="font-dmSans text-[48px] text-third font-normal leading-[57.6px] ">Hello, I’m</span> Hamim Sardar
+                <span className="font-dmSans text-[48px] text-third font-normal leading-[57.6px] ">
+                  Hello, I’m
+                </span>{" "}
+                Hamim Sardar
               </h1>
+
               <h2 className="font-dmSans text-[48px] font-normal py-3 leading-[57.6px] text-primary">
-               MERN Stact Developer
+                <TypeAnimation
+                  sequence={[
+                    "MERN Stack Developer", 
+                    2000, 
+                    "", 
+                    1000, 
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  deletionSpeed={30}
+                  style={{ display: "inline-block" }}
+                  repeat={Infinity}
+                />
               </h2>
               <p className="font-roboto text-[18px] font-regular mb-[24px] leading-[24px] text-secondery">
                 I’m a passionate Frontend Developer who loves building clean,
@@ -54,7 +72,12 @@ const Banner = () => {
             </div>
             <div>
               <div className="flex justify-center items-center text-center">
-                <Image src="/hero-img.jpg" alt="hero-img" height={600} width={801} />
+                <Image
+                  src="/hero-img.jpg"
+                  alt="hero-img"
+                  height={600}
+                  width={801}
+                />
               </div>
             </div>
           </div>

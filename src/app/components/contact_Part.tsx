@@ -111,7 +111,7 @@ const Contact_Part = () => {
                       <input
                         type="text"
                         placeholder="Enter your name"
-                        className="w-full px-4 py-2 border text-secondery border-gray-300 rounded-lg focus:outline-none focus:border-[#A53DFF]"
+                        className="w-full px-4 py-2 border text-secondery border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       />
                     </div>
 
@@ -122,7 +122,7 @@ const Contact_Part = () => {
                       <input
                         type="email"
                         placeholder="Enter your gmail"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#A53DFF]"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       />
                     </div>
 
@@ -133,7 +133,7 @@ const Contact_Part = () => {
                       <input
                         type="text"
                         placeholder="Enter your location"
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#A53DFF]"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                       />
                     </div>
                     <div className="flex justify-between mb-6">
@@ -144,7 +144,7 @@ const Contact_Part = () => {
                         <input
                           type="text"
                           placeholder="Enter your Budget"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#A53DFF]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                         />
                       </div>
                       <div>
@@ -154,7 +154,7 @@ const Contact_Part = () => {
                         <input
                           type="text"
                           placeholder="Enter your Subject"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-[#A53DFF]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
                         />
                       </div>
                     </div>
@@ -164,10 +164,9 @@ const Contact_Part = () => {
                       </label>
                       <textarea
                         placeholder="Write your message..."
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg resize-none focus:outline-none focus:border-[#A53DFF]"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg resize-none focus:outline-none focus:border-primary"
                       ></textarea>
                     </div>
-
                     <button type="submit" className="button">
                       Submit
                     </button>

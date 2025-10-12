@@ -5,14 +5,14 @@ const Navber = () => {
   return (
     <>
       <header className="fixed w-full z-[9999] ">
-        <nav className="absolute w-full bg-primarytwo">
+        <nav className="absolute w-full mt-2 ">
           <div className="container">
-            <div className="flex justify-between items-center py-3">
+            <div className="flex justify-between items-center px-2 py-3 bg-primarytwo/50 backdrop-blur-md shadow-md rounded-xl">
               <div>
                 <Image src="/Logo.png" alt="Logo" height={56} width={181} />
               </div>
               <div>
-                <ul className="flex justify-between gap-[60px] py-[10px]">
+                <ul className="flex justify-between gap-[60px] py-[10px] border-2 border-primary rounded-full shadow-sm px-4">
                   <li className="font-roboto font-semibold text-primary text-[16px] leading-[24px]  hover:text-third">
                     <a href="#">Home</a>
                   </li>
