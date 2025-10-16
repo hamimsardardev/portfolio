@@ -5,7 +5,7 @@ import { IoLogoInstagram } from "react-icons/io";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-primary">
+      <footer className="bg-[#062628]">
         <div className="container">
           <div className="flex justify-between items-center py-[36px]">
             <div>
@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="bg-primary">
           <div className="border-t border-primarytwo">
             <div className="container">
               <p className="font-roboto text-primarytwo text-center text-[18px] font-normal py-[30px] leading-[24px]">

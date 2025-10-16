@@ -25,7 +25,7 @@ const Services = () => {
               </p>
             </div>
             <div className="grid grid-cols-2 gap-6">
-              <div className="px-8 py-8 bg-white">
+              <div className="px-8 py-8 bg-white cursor-pointer hover:-translate-y-3 transition duration-300">
                 <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] mb-7 hover:bg-primary">
                   <FaReact className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                 </div>
@@ -37,7 +37,7 @@ const Services = () => {
                   purus arcu.
                 </p>
               </div>
-              <div className="px-8 py-8 bg-white">
+              <div className="px-8 py-8 bg-white cursor-pointer hover:-translate-y-3 transition duration-300">
                 <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] mb-7 hover:bg-primary">
                   <FaLaptopCode className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                 </div>
@@ -49,7 +49,7 @@ const Services = () => {
                   purus arcu.
                 </p>
               </div>
-              <div className="px-8 py-8 bg-white">
+              <div className="px-8 py-8 bg-white cursor-pointer hover:-translate-y-3 transition duration-300">
                 <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] mb-7 hover:bg-primary">
                   <FaNodeJs className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                 </div>
@@ -61,7 +61,7 @@ const Services = () => {
                   purus arcu.
                 </p>
               </div>
-              <div className="px-8 py-8 bg-white">
+              <div className="px-8 py-8 bg-white cursor-pointer hover:-translate-y-3 transition duration-300">
                 <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] mb-7 hover:bg-primary">
                   <Monitor className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                 </div>

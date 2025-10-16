@@ -4,7 +4,7 @@ import React from "react";
 const MySkill = () => {
   return (
     <>
-      <section className="py-[100px] bg-third">
+      <section className="py-[100px] bg-[#12787D]">
         <div className="container">
           <div className="font-roboto text-[48px] font-bold leading-[26px] text-primarytwo  text-center mb-4">
             <h4 className="mb-6">My Skills</h4>
