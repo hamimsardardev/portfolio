@@ -5,7 +5,7 @@ import { IoStar } from "react-icons/io5";
 const Testmonial = () => {
   return (
     <div>
-      <section className="py-[100px]">
+      <section className="py-[100px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="text-center flex flex-col items-center justify-center mb-6">
             <h3 className="font-roboto text-[48px] font-semibold leading-[22px] text-primary">

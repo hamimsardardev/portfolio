@@ -3,7 +3,7 @@ import React from "react";
 const DoPart = () => {
   return (
     <>
-      <section className="bg-[#F0F1F3] py-[150px]">
+      <section className=" py-[150px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="grid grid-cols-2">
             <div>

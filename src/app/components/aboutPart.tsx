@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const AboutPart = () => {
   return (
     <>
-      <section className="py-[112px]">
+      <section className="bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="grid grid-cols-2 justify-senter items-center">
             <div className="relative">

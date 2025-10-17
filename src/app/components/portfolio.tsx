@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Portfolio = () => {
   return (
     <>
-      <section className="py-[100px]">
+      <section className="py-[100px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="text-center">
             <h4 className="font-roboto text-[48px] font-semibold leading-[56px] text-primary mb-8">

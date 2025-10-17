@@ -6,7 +6,7 @@ import { CarouselSize } from "./CarouselSize";
 const Blog = () => {
   return (
     <>
-      <section className="py-[100px]">
+      <section className="py-[100px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="text-center mb-[70px]">
             <h5 className="font-dmSans text-[48px] font-semibold leading-[66px] text-primary">

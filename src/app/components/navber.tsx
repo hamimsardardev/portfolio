@@ -4,10 +4,11 @@ import Image from "next/image";
 const Navber = () => {
   return (
     <>
-      <header className="fixed w-full z-[9999] ">
-        <nav className="absolute w-full mt-2 ">
+    
+      <header className="fixed w-full z-[9999]">
+        <nav className="absolute w-full mt-2  ">
           <div className="container">
-            <div className="flex justify-between items-center px-2 py-3 bg-primarytwo/50 backdrop-blur-md shadow-md rounded-xl">
+            <div className="flex justify-between items-center px-2 py-3 bg-gradient-to-l from-[#ffff] to-[#D5EEF2] backdrop-blur-md shadow-md rounded-xl">
               <div>
                 <Image src="/Logo.png" alt="Logo" height={56} width={181} />
               </div>

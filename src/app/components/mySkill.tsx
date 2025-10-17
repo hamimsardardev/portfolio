@@ -4,11 +4,11 @@ import React from "react";
 const MySkill = () => {
   return (
     <>
-      <section className="py-[100px] bg-[#12787D]">
+      <section className="py-[100px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
-          <div className="font-roboto text-[48px] font-bold leading-[26px] text-primarytwo  text-center mb-4">
+          <div className="font-roboto text-[48px] font-bold leading-[26px] text-primary  text-center mb-4">
             <h4 className="mb-6">My Skills</h4>
-            <p className="font-roboto text-[16px] font-normal leading-[24px] mx-auto text-primarytwo mb-3 w-[529px]">
+            <p className="font-roboto text-[16px] font-normal leading-[24px] mx-auto text-secondery mb-3 w-[529px]">
               I've created and updated websites for many different clients. I
               worked with multiple CMS including WordPress, Joomla, and Drupal,
               as well as created my own custom website management system in

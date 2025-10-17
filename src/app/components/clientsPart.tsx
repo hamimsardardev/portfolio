@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const ClientsPart = () => {
   return (
     <>
-      <section className="py-[100px] bg-[#FFFFFF]">
+      <section className="py-[100px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
         <div className="container">
           <div className="text-center">
             <h3 className="font-roboto text-[28px] font-semibold leading-[56px] text-thirdcolor">
