@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { DM_Serif_Display, Roboto} from "next/font/google";
+import { DM_Serif_Display, Roboto } from "next/font/google";
 import "./globals.css";
-
+import { ThemeProvider } from "@/components/theme-provider";
 
 const dmSans = DM_Serif_Display({
   variable: "--font-dmSans",
-  subsets: ["latin"], 
+  subsets: ["latin"],
   weight: "400",
 });
 const roboto = Roboto({
   variable: "--font-roboto",
-  subsets: ["latin"], 
+  subsets: ["latin"],
   weight: "400",
 });
 
@@ -26,7 +26,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${roboto.variable}`}>{children}</body>
+      <body className={`${dmSans.variable} ${roboto.variable}`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
