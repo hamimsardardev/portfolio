@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 const AboutPart = () => {
   return (
     <>
-      <section className="bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
+      <section>
         <div className="container">
-          <div className="grid grid-cols-2 justify-senter items-center">
+          <div className="grid grid-cols-2 justify-senter items-center border-b-1 border-t-1 border-seconerycolor py-[112px]">
             <div className="relative">
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -61,13 +61,13 @@ const AboutPart = () => {
                 transition={{ duration: 0.5 }}
               >
                 <div>
-                  <h3 className="font-roboto text-[15px] font-bold leading-[22px] text-third">
+                  <h3 className="font-roboto text-[24px] font-semibold leading-[22px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                     About
                   </h3>
                   <h2 className="font-dmSans text-[30px] font-normal leading-[35px] mt-3 text-primary mb-4">
                     Who am i
                   </h2>
-                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-secondery">
+                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
                     I've created and updated websites for many different
                     clients. I worked with multiple CMS including WordPress,
                     Joomla, and Drupal, as well as created my own custom website
@@ -76,7 +76,7 @@ const AboutPart = () => {
                   <h2 className="font-dmSans text-[30px] font-normal leading-[35px] mt-3 text-primary mb-4">
                     I Can Develop Anything You Want
                   </h2>
-                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-secondery">
+                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
                     A part of the team that has built the front-end for an
                     enterprise-level web application in AngularJS. I've been a
                     part of a team that has built.
@@ -84,14 +84,22 @@ const AboutPart = () => {
                   <h2 className="font-dmSans text-[30px] font-normal leading-[35px] mt-3 text-primary mb-4">
                     I can follow digital Trends
                   </h2>
-                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-secondery">
+                  <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
                     I've worked with a wide range of technologies, including MS
                     SQL Server and Python. One of my favorite characteristics of
                     an employer is their passion for the work they are doing.
                   </p>
                   <div className="flex gap-4 mt-8">
-                    <div className="button">My Project</div>
-                    <div className="button">Download CV</div>
+                    <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+                      <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
+                        <button className="button">My Project</button>
+                      </div>
+                    </div>
+                    <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+                      <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
+                        <button className="button">Download CV</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </motion.div>

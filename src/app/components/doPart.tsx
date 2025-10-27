@@ -3,14 +3,14 @@ import React from "react";
 const DoPart = () => {
   return (
     <>
-      <section className=" py-[150px] bg-gradient-to-bl from-[#D5EEF2] to-[#ffff] py-[112px]">
+      <section>
         <div className="container">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-5 py-[150px] border-b-1 border-seconerycolor">
             <div>
-              <h2 className="font-roboto text-[48px] font-semibold pb-6 leading-[56px] text-primary">
+              <h2 className="font-roboto text-[48px] font-semibold pb-6 leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                 What I do?
               </h2>
-              <p className="font-roboto text-[18px] font-normal leading-[24px] text-secondery [w-529px]">
+              <p className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo [w-500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 purus arcu, varius eget velit non, laoreet imperdiet orci.
                 Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
@@ -20,7 +20,11 @@ const DoPart = () => {
                 </span>
               </p>
               <div className="mt-[50px]">
-                <button className="button">Say Hello!</button>
+                <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+                  <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
+                    <button className="button">Say Hello!</button>
+                  </div>
+                </div>
               </div>
             </div>
             <div>

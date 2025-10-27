@@ -36,11 +36,11 @@ export function CarouselSize() {
                   width={312}
                   className="rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6">
-                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
+                  <h4 className="font-dmSans text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -61,11 +61,11 @@ export function CarouselSize() {
                   width={312}
                   className="rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6">
-                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
+                  <h4 className="font-dmSans text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -86,11 +86,11 @@ export function CarouselSize() {
                   width={312}
                   className="rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6">
-                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
+                  <h4 className="font-dmSans text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -111,11 +111,11 @@ export function CarouselSize() {
                   width={312}
                   className="rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6">
-                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
+                  <h4 className="font-dmSans text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -134,11 +134,11 @@ export function CarouselSize() {
                   width={312}
                   className="rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6">
-                  <h4 className="font-dmSans text-[14px] font-normal leading-[20px] text-secondery mt-6 mb-2">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
+                  <h4 className="font-dmSans text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-dmSans text-[18px] font-medium leading-[24px] text-primary [w-264px]">
+                  <h5 className="font-dmSans text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>

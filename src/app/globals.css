@@ -8,16 +8,16 @@
   margin: 0 auto;
 }
 .button {
-  @apply px-[40px] py-[12px] bg-primary rounded-[8px] cursor-pointer font-roboto text-[14px] font-semibold leading-[21px] text-primarytwo border-2 border-transparent transition duration-300 hover:bg-none hover:bg-transparent hover:text-primary hover:border-primary;
+  @apply px-[40px] py-[12px] font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent group-hover:text-primary cursor-pointer transition duration-300;
 }
 .buttontwo {
-  @apply px-[20px] py-[12px] font-bold text-[16px] font-roboto text-primary bg-primarytwo border-2 border-primary cursor-pointer rounded-[8px] hover:bg-primary hover:border-transparent hover:text-primarytwo;
+  @apply px-6 py-3 font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent cursor-pointer transition duration-300 group-hover:text-primary;
 }
 :root {
-  --primarycolor: #138086;
-  --primarytwocolor: #ffffff ;
-  --seconerycolor: #6c6c71;
-  --thirdcolor: #062628;
+  --primarycolor: #FFFFFF;
+  --primarytwocolor: #C3C0BE ;
+  --seconerycolor: #141E26;
+  --thirdcolor: #0B043A;
   --radius: 0.625rem;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -48,8 +48,8 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: #0B043A;
+  --foreground: white;
 }
 
 @theme inline {

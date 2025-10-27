@@ -16,6 +16,7 @@ import Footer from "./components/footer";
 import Services from "./components/services";
 import AboutPart from "./components/aboutPart";
 import { Button } from "@/components/ui/button"
+import Experiance from "./components/experiance";
 
 const Home: React.FC = () => {
   const { scrollYProgress } = useScroll();
@@ -43,7 +44,8 @@ const Home: React.FC = () => {
       <Services />
       <MySkill />
       <Portfolio />
-      {/* <ProjectIdea/> */}
+      <Experiance/>
+      <ProjectIdea/>
       <Blog />
       <DoPart />
       <ClientsPart />

@@ -9,25 +9,25 @@ const Contact_Part = () => {
     <div>
       <section>
         <div className="container">
-          <div className="bg-[#F0F1F3] rounded-[15px]">
+          <div className="rounded-[15px]">
             <div className="grid grid-cols-2 px-[88px] py-[88px]">
               <div>
-                <h3 className="font-roboto text-[38px] font-semibold leading-[50px] text-primary">
+                <h3 className="font-roboto text-[38px] font-semibold leading-[50px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                   Let’s discuss your Project
                 </h3>
-                <p className="font-roboto text-[18px] font-normal leading-[24px] text-secondery mt-4  w-[481px] ">
+                <p className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo mt-4  w-[481px] ">
                   There are many variations of passages of Lorem Ipsu available.
                   but the majority have suffered alte.
                 </p>
                 <div className="py-[35px]">
                   {" "}
                   <div className="w-[390px]">
-                    <div className="flex gap-[13px] py-6 pl-6   items-center rounded-[10px] hover:shadow-xl/20 hover:bg-white ">
+                    <div className="flex gap-[13px] py-6 pl-6   items-center rounded-[10px] hover:shadow-xl/20 hover:bg-secondery ">
                       <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px] hover:bg-primary">
                         <MdOutlineLocationOn className="h-[32px] w-[32px] text-primary group-hover:text-primarytwo" />
                       </div>
                       <div>
-                        <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-secondery">
+                        <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-primary">
                           Address:
                         </p>
                         <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-primary">
