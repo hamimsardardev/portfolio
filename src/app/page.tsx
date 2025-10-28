@@ -1,7 +1,7 @@
-"use client"; 
+"use client";
 
 import React from "react";
-import { motion, useScroll } from "framer-motion"; 
+import { motion, useScroll } from "framer-motion";
 import Navber from "./components/navber";
 import Banner from "./components/banner";
 import Portfolio from "./components/portfolio";
@@ -15,7 +15,7 @@ import Contact_Part from "./components/contact_Part";
 import Footer from "./components/footer";
 import Services from "./components/services";
 import AboutPart from "./components/aboutPart";
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import Experiance from "./components/experiance";
 
 const Home: React.FC = () => {
@@ -28,12 +28,12 @@ const Home: React.FC = () => {
         style={{
           scaleX: scrollYProgress,
           position: "fixed",
-          top: 0,
+          bottom: 0,
           left: 0,
           right: 0,
           height: "8px",
           originX: 0,
-          backgroundColor: "#138086",
+          backgroundColor: "#FFFFFF",
           zIndex: 50,
         }}
       />
@@ -44,8 +44,8 @@ const Home: React.FC = () => {
       <Services />
       <MySkill />
       <Portfolio />
-      <Experiance/>
-      <ProjectIdea/>
+      <Experiance />
+      <ProjectIdea />
       <Blog />
       <DoPart />
       <ClientsPart />

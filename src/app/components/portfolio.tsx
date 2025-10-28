@@ -2,14 +2,38 @@ import Image from "next/image";
 import React from "react";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Portfolio = () => {
+  const cardVariants = {
+    right: {
+      hidden: { opacity: 0, x: 100 },
+      visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+    },
+    left: {
+      hidden: { opacity: 0, x: -100 },
+      visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
+    },
+    bottom: {
+      hidden: { opacity: 0, y: 100 },
+      visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+    },
+  };
   return (
     <>
       <section>
         <div className="container">
-          <div className="border-b-1 border-seconerycolor py-[120px]">
-            <div className="text-center">
+          <div className="border-b-1 border-seconerycolor py-[90px]">
+            <motion.div
+              initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                duration: 1.2,
+                ease: [0.25, 0.1, 0.25, 1],
+              }}
+              className="text-center"
+            >
               <h4 className="font-roboto text-[48px] font-semibold leading-[56px] text-primary mb-8">
                 Portfolio
               </h4>
@@ -17,9 +41,16 @@ const Portfolio = () => {
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration.
               </p>
-            </div>
+            </motion.div>
             <div className="grid grid-cols-3 gap-6">
-              <div className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]">
+              <motion.div
+                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
+                variants={cardVariants.right}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
+              >
                 <Image
                   src="/portfolioimage2.png"
                   alt="profession"
@@ -56,8 +87,14 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]">
+              </motion.div>
+              <motion.div
+                variants={cardVariants.left}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
+              >
                 <Image
                   src="/portfolioimage2.png"
                   alt="profession"
@@ -94,8 +131,15 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]">
+              </motion.div>
+              <motion.div
+                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
+                variants={cardVariants.bottom}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
+              >
                 <Image
                   src="/portfolioimage2.png"
                   alt="profession"
@@ -132,7 +176,7 @@ const Portfolio = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
             <div className="text-center mt-[50px]">
               <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">

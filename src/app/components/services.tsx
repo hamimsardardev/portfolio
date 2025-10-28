@@ -1,18 +1,32 @@
+"use client";
+
 import React from "react";
-import { GrPersonalComputer } from "react-icons/gr";
-import { FaLaptopCode } from "react-icons/fa";
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { FaNodeJs, FaDatabase } from "react-icons/fa";
-import { FaPalette, FaDraftingCompass } from "react-icons/fa";
-import { Layout, Palette, Monitor } from "lucide-react";
+import { FaReact } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Services = () => {
+  const floatAnimation = {
+    y: [0, -15, 0],
+    transition: {
+      duration: 1.5,
+      ease: "easeInOut",
+      repeat: Infinity,
+    },
+  };
   return (
     <>
       <section>
         <div className="container">
           <div className="grid grid-cols-2 justify-center items-center border-b-1 border-seconerycolor py-[140px]">
-            <div>
+            <motion.div
+              initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                duration: 1.2,
+                ease: [0.25, 0.1, 0.25, 1],
+              }}
+            >
               <h3 className="font-roboto text-[24px] font-semibold leading-[22px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                 Services
               </h3>
@@ -31,9 +45,21 @@ const Services = () => {
                   Meteor
                 </span>
               </p>
-            </div>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80, filter: "blur(8px)" }}
+              whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                duration: 1.2,
+                ease: [0.25, 0.1, 0.25, 1],
+              }}
+              className="grid grid-cols-2 gap-6"
+            >
+              <motion.div
+                animate={floatAnimation}
+                className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
+              >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
                   <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
                     <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
@@ -48,8 +74,14 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+              </motion.div>
+              <motion.div
+                animate={{
+                  ...floatAnimation,
+                  transition: { ...floatAnimation.transition, delay: 0.5 },
+                }}
+                className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
+              >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
                   <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
                     <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
@@ -64,8 +96,14 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+              </motion.div>
+              <motion.div
+                animate={{
+                  ...floatAnimation,
+                  transition: { ...floatAnimation.transition, delay: 1 },
+                }}
+                className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
+              >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
                   <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
                     <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
@@ -80,8 +118,14 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+              </motion.div>
+              <motion.div
+                animate={{
+                  ...floatAnimation,
+                  transition: { ...floatAnimation.transition, delay: 1.5 },
+                }}
+                className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
+              >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
                   <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
                     <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
@@ -96,8 +140,8 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </div>
       </section>

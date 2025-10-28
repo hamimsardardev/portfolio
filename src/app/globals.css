@@ -7,15 +7,18 @@
   width: 1280px;
   margin: 0 auto;
 }
+
 .button {
   @apply px-[40px] py-[12px] font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent group-hover:text-primary cursor-pointer transition duration-300;
 }
+
 .buttontwo {
   @apply px-6 py-3 font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent cursor-pointer transition duration-300 group-hover:text-primary;
 }
+
 :root {
   --primarycolor: #FFFFFF;
-  --primarytwocolor: #C3C0BE ;
+  --primarytwocolor: #C3C0BE;
   --seconerycolor: #141E26;
   --thirdcolor: #0B043A;
   --radius: 0.625rem;
@@ -133,8 +136,30 @@
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-100%);
+  }
+}
+
+.bubble {
+  @keyframes gradient-move {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-move 3s ease infinite;
   }
 }
 
@@ -146,6 +171,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

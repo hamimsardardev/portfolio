@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const DoPart = () => {
   return (
@@ -6,11 +7,31 @@ const DoPart = () => {
       <section>
         <div className="container">
           <div className="grid grid-cols-2 gap-5 py-[150px] border-b-1 border-seconerycolor">
-            <div>
-              <h2 className="font-roboto text-[48px] font-semibold pb-6 leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
+            <motion.div
+              initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                duration: 1.2,
+                ease: [0.25, 0.1, 0.25, 1],
+              }}
+            >
+              <motion.h2
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.8 }}
+                className="font-roboto text-[48px] font-semibold pb-6 leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
+              >
                 What I do?
-              </h2>
-              <p className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo [w-500px]">
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+                className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo [w-500px]"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 purus arcu, varius eget velit non, laoreet imperdiet orci.
                 Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
@@ -18,16 +39,32 @@ const DoPart = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   purus arcu, varius eget velit non.
                 </span>
-              </p>
+              </motion.p>
               <div className="mt-[50px]">
                 <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                   <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                    <button className="button">Say Hello!</button>
+                    <motion.button
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: false }}
+                      transition={{ duration: 0.8, delay: 0.6 }}
+                      className="button"
+                    >
+                      Say Hello!
+                    </motion.button>
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 80, filter: "blur(8px)" }}
+              whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                duration: 1.2,
+                ease: [0.25, 0.1, 0.25, 1],
+              }}
+            >
               <div id="accordion-open" data-accordion="open">
                 <h2 id="accordion-open-heading-1">
                   <button
@@ -244,7 +281,7 @@ const DoPart = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

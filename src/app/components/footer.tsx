@@ -59,12 +59,12 @@ const Footer = () => {
               </div>
               <div>
                 <div>
-                  <div className="mb-6">
+                  <div className="mb-4">
                     <h4 className="font-roboto text-[24px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary">
                       OUR SOCIAL MEDIA
                     </h4>
                   </div>
-                  <ul className="flex gap-2 mb-6">
+                  <ul className="flex gap-2 mb-4">
                     <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaFacebookF className="h-[20px] w-[20px]" />
@@ -91,13 +91,25 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
+                  <div>
+                    <h6 className="font-roboto text-[24px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary">
+                      NEWS LETTER
+                    </h6>
+                    <form className="mt-4 relative border-2 border-primarytwo rounded-xl focus:outline-none focus:border-primary">
+                      <input
+                        type="email"
+                        placeholder="Enter your gmail"
+                        className="w-full font-roboto text-[16px] text-regular px-4 py-2 "
+                      />
+                      <button
+                        type="submit"
+                        className="absolute font-roboto text-[16px] text-regular text-third bg-[#2cb86f] hover:text-primary hover:bg-third transition duration-300 px-4 py-2 rounded-r-xl left-[207px] top-0 h-full"
+                      >
+                        SEND
+                      </button>
+                    </form>
+                  </div>
                 </div>
-                <a
-                  className="font-roboto text-[24px] font-semibold text-primarytwo leading-[24px] border-b border-primarytwo pb-1"
-                  href="#"
-                >
-                  hamimsardar118677@gmail.com
-                </a>
               </div>
             </div>
           </div>

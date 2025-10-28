@@ -8,7 +8,7 @@ const Navber = () => {
     <>
       <header className="fixed w-full z-[9999]">
         <motion.nav
-          className="absolute w-full mt-2"
+          className="absolute w-full"
           initial={{ y: -80, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
