@@ -1,7 +1,7 @@
-"use client"; // ⚡ প্রয়োজন — কারণ useScroll client hook
+"use client"; 
 
 import React from "react";
-import { motion, useScroll } from "framer-motion"; // ✅ সঠিক import
+import { motion, useScroll } from "framer-motion"; 
 import Navber from "./components/navber";
 import Banner from "./components/banner";
 import Portfolio from "./components/portfolio";

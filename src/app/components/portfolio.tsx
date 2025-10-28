@@ -26,7 +26,7 @@ const Portfolio = () => {
                   height={248}
                   width={424}
                 />
-                <div className="py-8 px-8 border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                   height={248}
                   width={424}
                 />
-                <div className="py-8 px-8 border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>
@@ -102,7 +102,7 @@ const Portfolio = () => {
                   height={248}
                   width={424}
                 />
-                <div className="py-8 px-8 border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>

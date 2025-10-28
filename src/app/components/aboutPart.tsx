@@ -23,29 +23,29 @@ const AboutPart = () => {
                   height={424}
                   width={464}
                 />
-                <div className="py-3 px-3 bg-primary inline-block rounded-[8px] absolute left-[80px] bottom-[-35px]">
+                <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[80px] bottom-[-35px]">
                   <ul className="flex gap-2 ">
-                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
+                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaFacebookF className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
+                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaDribbble className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
+                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full">
                       <a href="">
                         <IoLogoInstagram className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
+                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaLinkedin className="h-[20px] w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primarytwo  hover:bg-primarytwo hover:text-primary hover:rounded-full">
+                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full">
                       <a href="">
                         <FaBehance className="h-[20px] w-[20px]" />
                       </a>
