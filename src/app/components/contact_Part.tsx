@@ -6,35 +6,42 @@ import { IoLogoInstagram } from "react-icons/io";
 import { motion } from "framer-motion";
 
 const Contact_Part = () => {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
+  const staggerContainer = {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: 0.15,
+      },
+    },
+  };
   return (
     <div>
       <section>
         <div className="container">
           <div className="rounded-[15px]">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false }}
-              transition={{ duration: 0.8 }}
-              className="grid grid-cols-2 px-[88px] py-[88px]"
-            >
+            <div className="grid grid-cols-2 px-[88px] py-[88px]">
               <motion.div
-              initial={{ opacity: 0, y: -80 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
+                initial={{ opacity: 0, x: -80 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <motion.h3
                   className="font-roboto text-[38px] font-semibold leading-[50px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
                 >
                   Let’s discuss your Project
                 </motion.h3>
                 <motion.p
                   className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo mt-4 w-[481px]"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
                   There are many variations of passages of Lorem Ipsu available.
@@ -138,14 +145,28 @@ const Contact_Part = () => {
                   </ul>
                 </div>
               </motion.div>
-              <div className="bg-[#1B1448] px-6 py-6 rounded-[8px]">
-                <p className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo w-[530px]">
+              <motion.div
+                className="bg-[#1B1448] px-6 py-6 rounded-[8px]"
+                initial="hidden"
+                whileInView="visible"
+                variants={staggerContainer}
+                viewport={{ once: false, amount: 0.3 }}
+              >
+                <motion.p
+                  variants={fadeInUp}
+                  className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo w-[530px]"
+                >
                   There are many variations of passages of Lorem Ipsu available,
                   but the majority have suffered alte.
-                </p>
+                </motion.p>
+
                 <div className="mt-[50px]">
-                  <form className="rounded-2xl ">
-                    <div className="mb-6">
+                  <motion.form
+                    variants={staggerContainer}
+                    className="rounded-2xl"
+                  >
+                    {/* Name */}
+                    <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Name*
                       </label>
@@ -156,9 +177,10 @@ const Contact_Part = () => {
                           className="w-full px-4 py-2 border bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary"
                         />
                       </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="mb-6">
+                    {/* Gmail */}
+                    <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Gmail*
                       </label>
@@ -169,9 +191,10 @@ const Contact_Part = () => {
                           className="w-full font-roboto text-[16px] text-regular px-4 py-2 border bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary"
                         />
                       </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="mb-6">
+                    {/* Location */}
+                    <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Location*
                       </label>
@@ -182,9 +205,14 @@ const Contact_Part = () => {
                           className="w-full font-roboto text-[16px] text-regular px-4 py-2 border bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary"
                         />
                       </div>
-                    </div>
-                    <div className="flex justify-between mb-6">
-                      <div>
+                    </motion.div>
+
+                    {/* Budget & Subject */}
+                    <motion.div
+                      variants={fadeInUp}
+                      className="flex justify-between mb-6 gap-6"
+                    >
+                      <div className="w-full">
                         <label className="block text-primary font-medium mb-1">
                           Budget*
                         </label>
@@ -196,7 +224,7 @@ const Contact_Part = () => {
                           />
                         </div>
                       </div>
-                      <div>
+                      <div className="w-full">
                         <label className="block text-primary font-medium mb-1">
                           Subject*
                         </label>
@@ -208,8 +236,10 @@ const Contact_Part = () => {
                           />
                         </div>
                       </div>
-                    </div>
-                    <div className="mb-6">
+                    </motion.div>
+
+                    {/* Message */}
+                    <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Message*
                       </label>
@@ -219,16 +249,22 @@ const Contact_Part = () => {
                           className="w-full font-roboto text-[16px] text-regular px-4 py-2 border bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary"
                         ></textarea>
                       </div>
-                    </div>
-                    <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
-                      <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="button">Submit</button>
+                    </motion.div>
+
+                    {/* Submit Button */}
+                    <div>
+                      <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
+                        <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
+                          <button className="button px-6 py-2 text-white font-semibold tracking-wide transition-all duration-300">
+                            Submit
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </form>
+                  </motion.form>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
