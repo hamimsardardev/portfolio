@@ -34,15 +34,14 @@ const Services = () => {
                 What I Provide
               </h2>
               <p className="font-roboto text-[16px] font-normal leading-[24px] text-primary w-[529px]">
-                I've created and updated websites for many different clients. I
-                worked with multiple CMS including WordPress, Joomla, and
-                Drupal, as well as created my own custom website management
-                system in Node.js
+                I have developed and maintained websites and web applications
+                for a variety of clients using the MERN stack (MongoDB,
+                Express.js, React.js, Node.js). I have built Chatting
+                application and scalable web solutions from scratch.
                 <span className="block font-roboto text-[16px] font-normal leading-[24px] text-primary mt-4 w-[529px]">
-                  I've been part of the team that has built the front-end for an
-                  enterprise level web application in AngularJS. I've been a
-                  part of a team that has built a social network from scratch in
-                  Meteor
+                  I have also been part of teams that developed enterprise-level
+                  applications and complex social platforms, delivering
+                  responsive, high-performance, and user-friendly solutions.
                 </span>
               </p>
             </motion.div>
@@ -69,8 +68,9 @@ const Services = () => {
                       Front-End Development
                     </h4>
                     <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[248px]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nulla purus arcu.
+                      I build responsive, interactive, and user-friendly
+                      front-end interfaces using React.js and modern web
+                      technologies.
                     </p>
                   </div>
                 </div>
@@ -91,8 +91,9 @@ const Services = () => {
                       Full-Stack Development
                     </h4>
                     <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[248px]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nulla purus arcu.
+                      I develop web applications using the MERN stack,
+                      delivering scalable, high-performance, and user-friendly
+                      solutions.
                     </p>
                   </div>
                 </div>
@@ -112,9 +113,10 @@ const Services = () => {
                     <h4 className="font-roboto text-[20px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
                       Back-End Development
                     </h4>
-                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[248px]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nulla purus arcu.
+                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[260px]">
+                      I design and develop back-end systems using Node.js,
+                      Express.js, and MongoDB, ensuring high performance
+                      front-end applications.
                     </p>
                   </div>
                 </div>
@@ -134,9 +136,10 @@ const Services = () => {
                     <h4 className="font-roboto text-[20px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
                       Web Design
                     </h4>
-                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[248px]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nulla purus arcu.
+                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[260px]">
+                      I create modern, responsive, and user-friendly web designs
+                      that provide an engaging user experience and visually
+                      appealing interfaces.
                     </p>
                   </div>
                 </div>

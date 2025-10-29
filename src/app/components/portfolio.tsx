@@ -38,8 +38,10 @@ const Portfolio = () => {
                 Portfolio
               </h4>
               <p className="font-roboto text-[18px] font-regular leading-[24px] mb-[70px] text-primarytwo w-[577px] mx-auto">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration.
+                I design and develop modern, responsive, and high-performance
+                web applications using the MERN stack (MongoDB, Express.js,
+                React.js, Node.js), ensuring intuitive user experiences and
+                visually compelling interfaces.
               </p>
             </motion.div>
             <div className="grid grid-cols-3 gap-6">
@@ -52,8 +54,8 @@ const Portfolio = () => {
                 className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
               >
                 <Image
-                  src="/portfolioimage2.png"
-                  alt="profession"
+                  src="/portfolioimage.jpg"
+                  alt="portfolioimage"
                   height={248}
                   width={424}
                 />
@@ -96,8 +98,8 @@ const Portfolio = () => {
                 className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
               >
                 <Image
-                  src="/portfolioimage2.png"
-                  alt="profession"
+                  src="/portfolioimage.png"
+                  alt="portfolioimage"
                   height={248}
                   width={424}
                 />

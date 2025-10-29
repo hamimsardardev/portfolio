@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="container">
             <div className="flex justify-between items-center py-[36px]">
               <motion.div variants={fadeUp}>
-                <Image src="/Logo.png" alt="Logo" height={56} width={181} />
+                <Image src="/logo.png" alt="Logo" height={50} width={120} />
                 <p className="font-roboto text-[18px] font-normal leading-[24px] mt-4 text-primarytwo w-[420px]">
                   I've been working as web developer for the past two years, and
                   have experience in multiple framework
@@ -96,37 +96,57 @@ const Footer = () => {
                   </h4>
                 </div>
                 <ul className="flex gap-2 mb-4">
-                  <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                  <motion.li
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full"
+                  >
                     <a href="">
                       <FaFacebookF className="h-[20px] w-[20px]" />
                     </a>
-                  </li>
-                  <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full">
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full"
+                  >
                     <a href="">
                       <FaDribbble className="h-[20px] w-[20px]" />
                     </a>
-                  </li>
-                  <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full">
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full"
+                  >
                     <a href="">
                       <IoLogoInstagram className="h-[20px] w-[20px]" />
                     </a>
-                  </li>
-                  <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full">
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full"
+                  >
                     <a href="">
                       <FaLinkedin className="h-[20px] w-[20px]" />
                     </a>
-                  </li>
-                  <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full">
+                  </motion.li>
+                  <motion.li
+                    whileHover={{ scale: 1.15, rotate: 5 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                    className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full"
+                  >
                     <a href="">
                       <FaBehance className="h-[20px] w-[20px]" />
                     </a>
-                  </li>
+                  </motion.li>
                 </ul>
                 <div>
                   <h6 className="font-roboto text-[24px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent border-primarytwo rounded-lg focus:outline-none focus:border-primary">
                     NEWS LETTER
                   </h6>
-                  <form className="mt-4 relative border-2 border-primarytwo rounded-xl focus:outline-none focus:border-primary">
+                  <div className="mt-4 relative border-2 border-primarytwo">
                     <input
                       type="email"
                       placeholder="Enter your gmail"
@@ -134,11 +154,11 @@ const Footer = () => {
                     />
                     <button
                       type="submit"
-                      className="absolute font-roboto text-[16px] text-regular text-third bg-[#2cb86f] hover:text-primary hover:bg-third transition duration-300 px-4 py-2 rounded-r-xl left-[207px] top-0 h-full"
+                      className="absolute font-roboto text-[16px] text-regular text-third bg-[#2cb86f] hover:text-primary hover:bg-third transition duration-300 px-4 py-2 left-[207px] top-0 h-full focus:outline-none"
                     >
                       SEND
                     </button>
-                  </form>
+                  </div>
                 </div>
               </motion.div>
             </div>

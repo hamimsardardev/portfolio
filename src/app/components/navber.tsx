@@ -20,7 +20,7 @@ const Navber = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
               >
-                <Image src="/Logo.png" alt="Logo" height={56} width={181} />
+                <Image src="/logo.png" alt="Logo" height={50} width={120} />
               </motion.div>
               <div>
                 <ul className="flex justify-between gap-[60px] py-[10px] border-2 border-primary rounded-full shadow-sm px-4">

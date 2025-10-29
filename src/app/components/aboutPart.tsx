@@ -68,26 +68,29 @@ const AboutPart = () => {
                     Who am i
                   </h2>
                   <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
-                    I've created and updated websites for many different
-                    clients. I worked with multiple CMS including WordPress,
-                    Joomla, and Drupal, as well as created my own custom website
-                    management system in Node.js
+                    I am a skilled MERN Stack Developer specializing in building
+                    efficient, scalable, and user-friendly web applications
+                    using MongoDB, Express.js, React.js, and Node.js. I focus on
+                    clean code, responsive design, and delivering high-quality
+                    digital solutions.
                   </p>
                   <h2 className="font-dmSans text-[30px] font-normal leading-[35px] mt-3 text-primary mb-4">
-                    I Can Develop Anything You Want
+                    I Can Develop Anything You Want.
                   </h2>
                   <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
-                    A part of the team that has built the front-end for an
-                    enterprise-level web application in AngularJS. I've been a
-                    part of a team that has built.
+                    A Part of a team that developed enterprise-level web
+                    applications using the MERN stack, focusing on scalable
+                    architecture and seamless user experience.
                   </p>
                   <h2 className="font-dmSans text-[30px] font-normal leading-[35px] mt-3 text-primary mb-4">
                     I can follow digital Trends
                   </h2>
                   <p className="font-roboto text-[16px] font-normal leading-[24px] text-primarytwo">
-                    I've worked with a wide range of technologies, including MS
-                    SQL Server and Python. One of my favorite characteristics of
-                    an employer is their passion for the work they are doing.
+                    I have experience working with a wide range of technologies,
+                    with a strong focus on the MERN stack (MongoDB, Express.js,
+                    React.js, Node.js). I value working with teams that are
+                    passionate about building impactful, high-quality web
+                    applications.
                   </p>
                   <div className="flex gap-4 mt-8">
                     <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">

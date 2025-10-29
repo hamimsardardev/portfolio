@@ -116,32 +116,52 @@ const Contact_Part = () => {
                   </div>
                 </div>
                 <div className="inline-block rounded-[8px]">
-                  <ul className="flex gap-2 ">
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                  <ul className="flex gap-2 mb-4">
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
                         <FaFacebookF className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
                         <FaDribbble className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
                         <IoLogoInstagram className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
                         <FaLinkedin className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
                         <FaBehance className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
+                    </motion.li>
                   </ul>
                 </div>
               </motion.div>
@@ -193,7 +213,6 @@ const Contact_Part = () => {
                       </div>
                     </motion.div>
 
-                    {/* Location */}
                     <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Location*
@@ -207,7 +226,6 @@ const Contact_Part = () => {
                       </div>
                     </motion.div>
 
-                    {/* Budget & Subject */}
                     <motion.div
                       variants={fadeInUp}
                       className="flex justify-between mb-6 gap-6"
@@ -238,7 +256,6 @@ const Contact_Part = () => {
                       </div>
                     </motion.div>
 
-                    {/* Message */}
                     <motion.div variants={fadeInUp} className="mb-6">
                       <label className="block text-primary font-medium mb-1">
                         Message*
@@ -251,7 +268,6 @@ const Contact_Part = () => {
                       </div>
                     </motion.div>
 
-                    {/* Submit Button */}
                     <div>
                       <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                         <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
