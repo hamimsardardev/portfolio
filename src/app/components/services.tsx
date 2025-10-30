@@ -3,9 +3,10 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { MotionProps } from "framer-motion";
 
 const Services = () => {
-  const floatAnimation = {
+  const floatAnimation: MotionProps["animate"]  = {
     y: [0, -15, 0],
     transition: {
       duration: 1.5,

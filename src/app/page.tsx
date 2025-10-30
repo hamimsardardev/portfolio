@@ -10,13 +10,12 @@ import Blog from "./components/blog";
 import DoPart from "./components/doPart";
 import ClientsPart from "./components/clientsPart";
 import MySkill from "./components/mySkill";
-import Testmonial from "./components/testmonial";
 import Contact_Part from "./components/contact_Part";
 import Footer from "./components/footer";
 import Services from "./components/services";
 import AboutPart from "./components/aboutPart";
 import Experiance from "./components/experiance";
-import { Test } from "./components/test";
+import Testmonial from "./components/testmonial";
 
 const Home: React.FC = () => {
   const { scrollYProgress } = useScroll();
@@ -49,8 +48,7 @@ const Home: React.FC = () => {
       <Blog />
       <DoPart />
       <ClientsPart />
-      <Testmonial />
-      <Test/>
+      <Testmonial/>
       <Contact_Part />
       <Footer />
     </>

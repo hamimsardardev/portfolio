@@ -8,9 +8,10 @@ import {
   MdOutlineMarkEmailUnread,
 } from "react-icons/md";
 import { motion } from "framer-motion";
+import { Variants } from "framer-motion";
 
 const Footer = () => {
-  const fadeUp = {
+  const fadeUp: Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
       opacity: 1,
@@ -40,7 +41,10 @@ const Footer = () => {
               <motion.div variants={fadeUp}>
                 <Image src="/logo.png" alt="Logo" height={50} width={120} />
                 <p className="font-roboto text-[18px] font-normal leading-[24px] mt-4 text-primarytwo w-[420px]">
-                  I’m a passionate MERN stack developer focused on creating responsive, modern, and user-friendly web applications. Whether you have a project idea or want to collaborate, feel free to get in touch. Let&#39;s turn your vision into reality!
+                  I&apos;m a passionate MERN stack developer focused on creating
+                  responsive, modern, and user-friendly web applications.
+                  Whether you have a project idea or want to collaborate, feel
+                  free to get in touch. Let&#39;s turn your vision into reality!
                 </p>
               </motion.div>
               <div className="py-3 px-3 inline-block rounded-[8px] ">
