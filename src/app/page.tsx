@@ -15,8 +15,8 @@ import Contact_Part from "./components/contact_Part";
 import Footer from "./components/footer";
 import Services from "./components/services";
 import AboutPart from "./components/aboutPart";
-import { Button } from "@/components/ui/button";
 import Experiance from "./components/experiance";
+import { Test } from "./components/test";
 
 const Home: React.FC = () => {
   const { scrollYProgress } = useScroll();
@@ -50,6 +50,7 @@ const Home: React.FC = () => {
       <DoPart />
       <ClientsPart />
       <Testmonial />
+      <Test/>
       <Contact_Part />
       <Footer />
     </>

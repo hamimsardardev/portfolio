@@ -3,6 +3,7 @@ import React from "react";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Portfolio = () => {
   const cardVariants = {
@@ -51,12 +52,11 @@ const Portfolio = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false }}
-                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
               >
                 <Image
-                  src="/portfolioimage.jpg"
+                  src="/portfolioimage.png"
                   alt="portfolioimage"
-                  height={248}
+                  height={148}
                   width={424}
                 />
                 <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
@@ -66,25 +66,37 @@ const Portfolio = () => {
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
                     CHATTING APPLICATION
                   </h5>
-                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[360px]">
-                    Vivamus eleifend convallis ante, non pharetra libero
-                    molestie laoreet. Donec id imperdiet lacus.
+                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[350px]">
+                    Real-Time Chat Application built with React.js and Firebase
+                    React.js, Firebase (Auth, Firestore), Tailwind CSS, Redux
                   </p>
                   <div className="flex justify-between mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo flex items-center gap-1">
+                        <Link
+                          href={
+                            "https://github.com/hamimsardardev/chattingapp_2405"
+                          }
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo flex items-center gap-1"
+                        >
                           Repository{" "}
                           <FaSquareGithub className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                     <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo  flex items-center gap-1">
+                        <Link
+                          href={"https://chattingapp-2405-v8ph.vercel.app/"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo  flex items-center gap-1"
+                        >
                           Live Preview{" "}
                           <FaArrowRight className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -98,8 +110,8 @@ const Portfolio = () => {
                 className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
               >
                 <Image
-                  src="/portfolioimage.png"
-                  alt="portfolioimage"
+                  src="/meternized.png"
+                  alt="meternized"
                   height={248}
                   width={424}
                 />
@@ -108,27 +120,40 @@ const Portfolio = () => {
                     FRONT-END DEVELOPMENT
                   </h4>
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
-                    CHATTING APPLICATION
+                    METERNIZED PROJECTS
                   </h5>
                   <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[360px]">
-                    Vivamus eleifend convallis ante, non pharetra libero
-                    molestie laoreet. Donec id imperdiet lacus.
+                    Built a responsive multi-page website with React.js,
+                    Tailwind CSS, and React Router, reusable components and
+                    smooth page navigation.
                   </p>
                   <div className="flex justify-between mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo flex items-center gap-1">
+                        <Link
+                          href={
+                            "https://github.com/hamimsardardev/modernized_project"
+                          }
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo flex items-center gap-1"
+                        >
                           Repository{" "}
                           <FaSquareGithub className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                     <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo  flex items-center gap-1">
+                        <Link
+                          href={"https://modernized-project.vercel.app/"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo flex items-center gap-1"
+                        >
                           Live Preview{" "}
                           <FaArrowRight className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -140,11 +165,10 @@ const Portfolio = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false }}
-                className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
               >
                 <Image
-                  src="/portfolioimage2.png"
-                  alt="profession"
+                  src="/seoldesign.png"
+                  alt="seoldesign"
                   height={248}
                   width={424}
                 />
@@ -153,27 +177,40 @@ const Portfolio = () => {
                     FRONT-END DEVELOPMENT
                   </h4>
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
-                    CHATTING APPLICATION
+                    SAULDESIGN PROJECT
                   </h5>
                   <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[360px]">
-                    Vivamus eleifend convallis ante, non pharetra libero
-                    molestie laoreet. Donec id imperdiet lacus.
+                    VBuilt a responsive single-page website with React.js,
+                    Tailwind CSS, and React Router, reusable components and
+                    smooth page navigation.
                   </p>
                   <div className="flex justify-between mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo flex items-center gap-1">
+                        <Link
+                          href={
+                            "https://github.com/hamimsardardev/sauldesign_project"
+                          }
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo flex items-center gap-1"
+                        >
                           Repository{" "}
                           <FaSquareGithub className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                     <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                        <button className="buttontwo  flex items-center gap-1">
+                        <Link
+                          href={"https://sauldesign-project.vercel.app/"}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="buttontwo flex items-center gap-1"
+                        >
                           Live Preview{" "}
                           <FaArrowRight className="text-lg text-[#2cb86f] group-hover:text-primary" />
-                        </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

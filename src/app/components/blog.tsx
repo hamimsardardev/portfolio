@@ -31,8 +31,10 @@ const Blog = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration.
+                Explore my thoughts, tutorials, and experiences in web
+                development. I share practical tips, MERN stack tutorials, and
+                industry best practices to help developers and tech enthusiasts
+                stay updated with modern web technologies.
               </motion.p>
             </motion.div>
             <CarouselSize />

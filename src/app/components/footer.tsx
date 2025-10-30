@@ -40,8 +40,7 @@ const Footer = () => {
               <motion.div variants={fadeUp}>
                 <Image src="/logo.png" alt="Logo" height={50} width={120} />
                 <p className="font-roboto text-[18px] font-normal leading-[24px] mt-4 text-primarytwo w-[420px]">
-                  I've been working as web developer for the past two years, and
-                  have experience in multiple framework
+                  I’m a passionate MERN stack developer focused on creating responsive, modern, and user-friendly web applications. Whether you have a project idea or want to collaborate, feel free to get in touch. Let&#39;s turn your vision into reality!
                 </p>
               </motion.div>
               <div className="py-3 px-3 inline-block rounded-[8px] ">
@@ -83,7 +82,7 @@ const Footer = () => {
                         <MdOutlineLocationOn className="h-[20px] w-[20px] text-white" />
                       </motion.div>
                       <a href="#" className="text-primary hover:text-[#2cb86f]">
-                        15A/8, Aktek Villa, Tekkapara, Mohammadpur
+                        {"15A/8, Aktek Villa, Tekkapara, Mohammadpur"}
                       </a>
                     </li>
                   </ul>

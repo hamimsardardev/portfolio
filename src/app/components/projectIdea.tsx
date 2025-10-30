@@ -34,18 +34,17 @@ const ProjectIdea = () => {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
               >
-                Do you have Project Idea? Let's discuss your project!
+                Do you have Project Idea? Let&#39;s discuss your project!
               </motion.h4>
 
               <motion.p
-                className="font-dmSans text-[18px] font-regular leading-[24px] text-primarytwo py-8 mx-auto w-[577px]"
+                className="font-dmSans text-[18px] font-regular leading-[24px] text-primarytwo py-8 mx-auto w-[615px]"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration.
+                I specialize in delivering end-to-end solutions using the MERN stack (MongoDB, Express, React, Node.js). From crafting seamless user experiences to designing robust backends, I ensure your project is not just functional, but scalable, responsive, and tailored to your goals. Let&#39;s collaborate and turn your vision into a polished, real-world application.
               </motion.p>
 
               <motion.div
@@ -57,7 +56,7 @@ const ProjectIdea = () => {
               >
                 <div className="group rounded-[8px] bg-third hover:bg-[#141E26] transition duration-300">
                   <button className="button transform transition duration-300 hover:scale-105 hover:shadow-lg">
-                    Let’s work Together
+                    Let&#39;s work Together
                   </button>
                 </div>
               </motion.div>

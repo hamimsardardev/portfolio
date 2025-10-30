@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import CountUp from "react-countup";
 
 const Banner = () => {
   return (

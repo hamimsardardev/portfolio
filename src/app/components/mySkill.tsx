@@ -9,10 +9,10 @@ const MySkill = () => {
           <div className="font-roboto text-[48px] font-bold leading-[26px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-center mb-4 border-b-1 border-seconerycolor py-[100px]">
             <h4 className="mb-6">My Skills</h4>
             <p className="font-roboto text-[16px] font-normal leading-[24px] mx-auto text-primarytwo mb-3 w-[529px]">
-              I've created and updated websites for many different clients. I
-              worked with multiple CMS including WordPress, Joomla, and Drupal,
-              as well as created my own custom website management system in
-              Node.js
+              I&apos;ve created and updated websites for many different clients.
+              I worked with multiple CMS including WordPress, Joomla, and
+              Drupal, as well as created my own custom website management system
+              in Node.js.
             </p>
             <div>
               <div className="flex gap-[103px] justify-center items-center">
