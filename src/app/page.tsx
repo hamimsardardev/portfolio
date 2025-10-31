@@ -39,7 +39,7 @@ const Home: React.FC = () => {
 
       <Navber />
       <Banner />
-      <AboutPart />
+      {/* <AboutPart />
       <Services />
       <MySkill />
       <Portfolio />
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
       <ClientsPart />
       <Testmonial/>
       <Contact_Part />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

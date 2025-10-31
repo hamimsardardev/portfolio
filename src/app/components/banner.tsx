@@ -7,23 +7,24 @@ import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <>
-      <section className="">
-        <div className="container">
-          <div className="grid grid-cols-2 pt-[220px] justify-center items-center">
+      <section>
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid lg:grid-cols-2 lg:pt-[220px] pt-[120px] justify-center items-center mx-auto">
             <motion.div
               initial={{ opacity: 0, x: -80 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false }}
               transition={{ duration: 1, ease: "easeOut" }}
+              className=""
             >
-              <h1 className="font-dmSans text-[48px] font-normal leading-[57.6px] text-primary">
-                <span className="font-dmSans text-[48px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent font-normal leading-[57.6px] ">
+              <h1 className="font-dmSans text-[32px] lg:text-[48px] font-normal leading-[40px] lg:leading-[57.6px] text-primary">
+                <span className="font-dmSans text-[32px] lg:text-[48px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent font-normal leading-[40px] lg:leading-[57.6px] ">
                   Hello, I’m
                 </span>{" "}
                 Hamim Sardar
               </h1>
 
-              <h2 className="font-dmSans text-[48px] font-normal py-3 leading-[57.6px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
+              <h2 className="font-dmSans text-[32px] lg:text-[48px] font-normal py-2 lg:py-3 leading-[40px] lg:leading-[57.6px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                 <TypeAnimation
                   sequence={[
                     "MERN Stack Developer",
@@ -44,7 +45,7 @@ const Banner = () => {
               </h2>
 
               <motion.p
-                className="font-roboto text-[18px] font-regular mb-[24px] leading-[24px] text-primarytwo"
+                className="font-roboto text-[16px] lg:text-[18px] font-regular mb-[24px] leading-[14px] lg:leading-[24px] text-primarytwo w-autp lg:w-[580px] "
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -70,12 +71,13 @@ const Banner = () => {
               viewport={{ once: false }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-              <div className="flex justify-center items-center text-center">
+              <div className="w-auto lg:w-full lg:flex lg:justify-center lg:items-center lg:text-center">
                 <Image
                   src="/hero-img.jpg"
                   alt="hero-img"
                   height={600}
                   width={801}
+                  className="w-auto lg:w-full"
                 />
               </div>
             </motion.div>

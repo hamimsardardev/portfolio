@@ -9,7 +9,7 @@
 }
 
 .button {
-  @apply px-[40px] py-[12px] font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent group-hover:text-primary cursor-pointer transition duration-300;
+  @apply px-[40px] py-[10px] lg:px-[40px] lg:py-[12px] font-roboto text-[16px] font-normal lg:text-[16px] lg:font-semibold lg:leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent group-hover:text-primary cursor-pointer transition duration-300;
 }
 
 .buttontwo {
