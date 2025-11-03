@@ -16,14 +16,14 @@ const Navber = () => {
 
   return (
     <>
-      <header className="fixed w-full z-[9999] left-0 top-0">
+      <header className="fixed w-full z-[9999]">
         <motion.nav
-          className="w-full bg-transparent"
+          className="absolute w-full"
           initial={{ y: -80, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <div className="max-w-[1320px] mx-auto px-4">
+          <div className="container mx-auto">
             <div className="flex justify-between items-center py-3 backdrop-blur-md shadow-md rounded-xl">
               {/* -------- Logo -------- */}
               <motion.div

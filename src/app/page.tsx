@@ -39,8 +39,8 @@ const Home: React.FC = () => {
 
       <Navber />
       <Banner />
-      {/* <AboutPart />
-      <Services />
+      <AboutPart />
+      {/* <Services />
       <MySkill />
       <Portfolio />
       <Experiance />

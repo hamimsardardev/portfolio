@@ -10,12 +10,14 @@ const AboutPart = () => {
     <>
       <section>
         <div className="container">
-          <div className="grid grid-cols-2 justify-senter items-center border-b-1 border-t-1 border-seconerycolor py-[112px]">
-            <div className="relative">
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 md:gap-6 items-center border-t border-b border-seconerycolor py-[80px] md:py-[100px] lg:py-[112px] px-5">
+            <div className="relative flex justify-center">
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5 }}
+                 className="w-full max-w-[400px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[464px]"
               >
                 <Image
                   src="/professionimage.png"
@@ -23,38 +25,38 @@ const AboutPart = () => {
                   height={424}
                   width={464}
                 />
-                <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[80px] bottom-[-35px]">
-                  <ul className="flex gap-2 ">
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[35px] md:left-[30px] lg:left-[80px]  bottom-[-35px]">
+                  <ul className="flex gap-1 lg:gap-2 ">
+                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
-                        <FaFacebookF className="h-[20px] w-[20px]" />
+                        <FaFacebookF className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full">
+                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
-                        <FaDribbble className="h-[20px] w-[20px]" />
+                        <FaDribbble className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full">
+                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
-                        <IoLogoInstagram className="h-[20px] w-[20px]" />
+                        <IoLogoInstagram className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full">
+                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
-                        <FaLinkedin className="h-[20px] w-[20px]" />
+                        <FaLinkedin className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
                       </a>
                     </li>
-                    <li className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full">
+                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">
-                        <FaBehance className="h-[20px] w-[20px]" />
+                        <FaBehance className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
                       </a>
                     </li>
                   </ul>
                 </div>
               </motion.div>
             </div>
-            <div>
+            {/* <div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -106,7 +108,7 @@ const AboutPart = () => {
                   </div>
                 </div>
               </motion.div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
