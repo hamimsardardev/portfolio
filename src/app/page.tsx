@@ -40,8 +40,8 @@ const Home: React.FC = () => {
       <Navber />
       <Banner />
       <AboutPart />
-      {/* <Services />
-      <MySkill />
+      <Services />
+      {/* <MySkill />
       <Portfolio />
       <Experiance />
       <ProjectIdea />
