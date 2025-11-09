@@ -6,16 +6,19 @@ const MySkill = () => {
     <>
       <section>
         <div className="container">
-          <div className="font-roboto text-[48px] font-bold leading-[26px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-center mb-4 border-b-1 border-seconerycolor py-[100px]">
-            <h4 className="mb-6">My Skills</h4>
-            <p className="font-roboto text-[16px] font-normal leading-[24px] mx-auto text-primarytwo mb-3 w-[529px]">
+          <div className=" text-center mb-4 border-b-1 border-seconerycolor py-12 md:py-18 lg:py-[100px]">
+            <h4 className="font-roboto text-[30px] md:text-[36px] lg:text-[48px] font-bold leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent inline-block mb-3 md:mb-4 lg:mb-6">
+              My Skills
+            </h4>
+
+            <p className="font-roboto text-[16px] font-normal leading-[24px] mx-auto text-primarytwo mb-3 w-auto md:w-auto lg:w-[529px]">
               I&apos;ve created and updated websites for many different clients.
               I worked with multiple CMS including WordPress, Joomla, and
               Drupal, as well as created my own custom website management system
               in Node.js.
             </p>
-            <div>
-              <div className="flex gap-[103px] justify-center items-center">
+            <div className="flex flex-col justify-center items-center">
+              <div className=" grid grid-cols-2 gap-4 md:grid-cols-3 lg:flex lg:gap-[100px] justify-center items-center">
                 <Image
                   className="border-2 border-primarytwo py-4 px-4 rounded-full"
                   src="/html.png"
@@ -45,7 +48,7 @@ const MySkill = () => {
                   width={100}
                 />
               </div>
-              <div className="flex gap-[103px] justify-center items-center mt-6">
+              <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:flex lg:gap-[100px] justify-center items-center mt-6">
                 <Image
                   className="border-2 border-primarytwo py-4 px-4 rounded-full"
                   src="/vscode.png"

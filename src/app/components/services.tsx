@@ -16,9 +16,9 @@ const Services = () => {
   };
   return (
     <>
-      <section className="px-3 lg:px-0">
+      <section className="">
         <div className="container">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 justify-center items-center border-b-1 border-seconerycolor py-[140px]">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 justify-center items-center border-b-1 border-seconerycolor py-16 lg:py-[140px]">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -84,14 +84,14 @@ const Services = () => {
                 className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
               >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
-                  <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
-                    <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
+                  <div className="px-4 py-4 md:px-6 md:py-6 lg:px-8 lg:py-8 backdrop-blur-md  cursor-pointer">
+                    <div className="py-4 px-4 md:px- md:py-4 lg:py-[20px] lg:px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
                       <FaReact className="h-[32px] w-[32px] text-primary group-hover:text-primary" />
                     </div>
-                    <h4 className="font-roboto text-[20px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
+                    <h4 className="font-roboto text-[16px] leading-[24px] lg:text-[20px] font-semibold lg:leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
                       Full-Stack Development
                     </h4>
-                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[248px]">
+                    <p className="font-roboto text-[14px] leading-[20px] lg:text-[16px] font-normal lg:leading-[24px] text-primary w-auto lg:w-[248px]">
                       I develop web applications using the MERN stack,
                       delivering scalable, high-performance, and user-friendly
                       solutions.
@@ -107,14 +107,14 @@ const Services = () => {
                 className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
               >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
-                  <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
-                    <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
+                  <div className="px-4 py-4 md:px-6 md:py-6 lg:px-8 lg:py-8 backdrop-blur-md  cursor-pointer">
+                    <div className="py-4 px-4 md:px- md:py-4 lg:py-[20px] lg:px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
                       <FaReact className="h-[32px] w-[32px] text-primary group-hover:text-primary" />
                     </div>
                     <h4 className="font-roboto text-[20px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
                       Back-End Development
                     </h4>
-                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[260px]">
+                    <p className="font-roboto text-[14px] leading-[20px] lg:text-[16px] font-normal lg:leading-[24px] text-primary w-auto lg:w-[260px]">
                       I design and develop back-end systems using Node.js,
                       Express.js, and MongoDB, ensuring high performance
                       front-end applications.
@@ -130,14 +130,14 @@ const Services = () => {
                 className="p-[2px] hover:-translate-y-3 transition duration-300  bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block"
               >
                 <div className="group bg-third hover:bg-secondery transition duration-300">
-                  <div className="px-8 py-8 backdrop-blur-md  cursor-pointer">
-                    <div className=" py-[20px] px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
+                  <div className="px-4 py-4 md:px-6 md:py-6 lg:px-8 lg:py-8 backdrop-blur-md  cursor-pointer">
+                    <div className="py-4 px-4 md:px- md:py-4 lg:py-[20px] lg:px-[20px] border-1 border-primary inline-block rounded-[6px] mb-7 group-hover:bg-secondery">
                       <FaReact className="h-[32px] w-[32px] text-primary group-hover:text-primary" />
                     </div>
                     <h4 className="font-roboto text-[20px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mb-3">
                       Web Design
                     </h4>
-                    <p className="font-roboto text-[16px] font-regular leading-[24px] text-primary w-[260px]">
+                    <p className="font-roboto text-[14px] leading-[20px] lg:text-[16px] font-normal lg:leading-[24px] text-primary w-auto lg:w-[260px]">
                       I create modern, responsive, and user-friendly web designs
                       that provide an engaging user experience and visually
                       appealing interfaces.

@@ -7,9 +7,9 @@ const Experiance = () => {
     <div>
       <section>
       <div className="container">
-        <div className="text-center flex justify-center py-[100px]">
+        <div className="text-center flex justify-center py-10 md:py-16 lg:py-[100px]">
           <motion.div
-            className="flex gap-[250px] items-center justify-center"
+            className="flex flex-col md:flex-row lg:flex-row md:gap-[160px] lg:gap-[250px] gap-6 items-center justify-center"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

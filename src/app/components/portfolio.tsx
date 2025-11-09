@@ -24,7 +24,7 @@ const Portfolio = () => {
     <>
       <section>
         <div className="container">
-          <div className="border-b-1 border-seconerycolor py-[90px]">
+          <div className="border-b-1 border-seconerycolor py-12 md:py-[60px] lg:py-[90px]">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -35,17 +35,17 @@ const Portfolio = () => {
               }}
               className="text-center"
             >
-              <h4 className="font-roboto text-[48px] font-semibold leading-[56px] text-primary mb-8">
+              <h4 className="font-roboto text-[30px] md:text-[36px] lg:text-[48px] font-semibold leading-[56px] text-primary mb-8">
                 Portfolio
               </h4>
-              <p className="font-roboto text-[18px] font-regular leading-[24px] mb-[70px] text-primarytwo w-[577px] mx-auto">
+              <p className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-regular leading-[24px] mb-[50px] md:mb-[60px] lg:mb-[70px] text-primarytwo w-auto lg:w-[577px] mx-auto">
                 I design and develop modern, responsive, and high-performance
                 web applications using the MERN stack (MongoDB, Express.js,
                 React.js, Node.js), ensuring intuitive user experiences and
                 visually compelling interfaces.
               </p>
             </motion.div>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
               <motion.div
                 className="hover:shadow-xl/20 rounded-br-[8px] rounded-bl-[8px]"
                 variants={cardVariants.right}
@@ -59,18 +59,18 @@ const Portfolio = () => {
                   height={148}
                   width={424}
                 />
-                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="flex flex-col items-center lg:items-start py-2 px-2 md:py-4 md:px-8 lg:py-8 lg:px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
                     CHATTING APPLICATION
                   </h5>
-                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[350px]">
+                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-full mx-auto md:w-[280px] lg:w-[350px]">
                     Real-Time Chat Application built with React.js and Firebase
                     React.js, Firebase (Auth, Firestore), Tailwind CSS, Redux
                   </p>
-                  <div className="flex justify-between mt-6">
+                  <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
                         <Link
@@ -115,19 +115,19 @@ const Portfolio = () => {
                   height={248}
                   width={424}
                 />
-                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="flex flex-col items-center lg:items-start py-2 px-2 md:py-4 md:px-8 lg:py-8 lg:px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
                     METERNIZED PROJECTS
                   </h5>
-                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[360px]">
+                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-full mx-auto md:w-[280px] lg:w-[350px]">
                     Built a responsive multi-page website with React.js,
                     Tailwind CSS, and React Router, reusable components and
                     smooth page navigation.
                   </p>
-                  <div className="flex justify-between mt-6">
+                  <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
                         <Link
@@ -146,10 +146,10 @@ const Portfolio = () => {
                     <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
                         <Link
-                          href={"https://modernized-project.vercel.app/"}
+                          href={"https://modernized-project-pud2vgzgj-hamimsardardevs-projects.vercel.app/"}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="buttontwo flex items-center gap-1"
+                          className="buttontwo  flex items-center gap-1"
                         >
                           Live Preview{" "}
                           <FaArrowRight className="text-lg text-[#2cb86f] group-hover:text-primary" />
@@ -172,19 +172,19 @@ const Portfolio = () => {
                   height={248}
                   width={424}
                 />
-                <div className="py-8 px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
+                <div className="flex flex-col items-center lg:items-start py-2 px-2 md:py-4 md:px-8 lg:py-8 lg:px-8 bg-[#1B1448] border-2 border-t-0 border-[#E6E8EB] rounded-br-[8px] rounded-bl-[8px]">
                   <h4 className="font-roboto text-[12px] font-medium leading-[16px] text-primary">
                     FRONT-END DEVELOPMENT
                   </h4>
                   <h5 className="font-roboto text-[18px] font-semibold leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-2">
                     SAULDESIGN PROJECT
                   </h5>
-                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-[360px]">
+                  <p className="font-roboto text-[14px] font-regular leading-[16px] text-primary pt-2 w-full mx-auto md:w-[280px] lg:w-[350px]">
                     VBuilt a responsive single-page website with React.js,
                     Tailwind CSS, and React Router, reusable components and
                     smooth page navigation.
                   </p>
-                  <div className="flex justify-between mt-6">
+                  <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 mt-6">
                     <div className="p-[2px] group rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                       <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
                         <Link
@@ -206,7 +206,7 @@ const Portfolio = () => {
                           href={"https://sauldesign-project.vercel.app/"}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="buttontwo flex items-center gap-1"
+                          className="buttontwo  flex items-center gap-1"
                         >
                           Live Preview{" "}
                           <FaArrowRight className="text-lg text-[#2cb86f] group-hover:text-primary" />

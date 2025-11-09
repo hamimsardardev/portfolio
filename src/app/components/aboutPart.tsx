@@ -10,8 +10,8 @@ const AboutPart = () => {
     <>
       <section>
         <div className="container">
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 md:gap-6 items-center border-t border-b border-seconerycolor py-[80px] md:py-[100px] lg:py-[112px] px-5">
-            <div className="relative flex justify-center">
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 md:gap-6 items-center border-t border-b border-seconerycolor py-[80px] md:py-[100px] lg:py-[112px] ">
+            <div className="relative">
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -24,7 +24,7 @@ const AboutPart = () => {
                   height={424}
                   width={464}
                 />
-                <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[35px] bottom-[-25px] md:left-[30px] lg:left-[130px] lg:bottom-[-35px]">
+                <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[35px] bottom-[-25px] md:left-[30px] lg:left-[85px] lg:bottom-[-35px]">
                   <ul className="flex gap-1 lg:gap-2 ">
                     <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
                       <a href="">

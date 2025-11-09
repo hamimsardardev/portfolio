@@ -41,16 +41,16 @@ const Home: React.FC = () => {
       <Banner />
       <AboutPart />
       <Services />
-      {/* <MySkill />
+      <MySkill />
       <Portfolio />
       <Experiance />
-      <ProjectIdea />
+      {/* <ProjectIdea />
       <Blog />
       <DoPart />
       <ClientsPart />
       <Testmonial/>
       <Contact_Part />
-      <Footer /> */}
+      <Footer />  */}
     </>
   );
 };

@@ -18,13 +18,13 @@ const Banner = () => {
             >
               <div className="text-center md:text-left lg:text-left xl:text-left">
                 <h1 className="flex flex-col gap-2 lg:flex-row font-dmSans text-[32px] lg:text-[48px] font-normal leading-[40px] lg:leading-[57.6px] text-primary">
-                  <span className="font-dmSans text-[32px] lg:text-[48px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent font-normal leading-[40px] lg:leading-[57.6px] ">
+                  <span className="font-dmSans text-[26px] lg:text-[48px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent font-normal leading-[40px] lg:leading-[57.6px] ">
                     Hello, I’m
                   </span>{" "}
                   Hamim Sardar
                 </h1>
 
-                <h2 className="font-dmSans text-[32px] lg:text-[48px] font-normal py-2 lg:py-3 leading-[40px] lg:leading-[57.6px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
+                <h2 className="font-dmSans text-[26px] lg:text-[48px] font-normal py-2 lg:py-3 leading-[40px] lg:leading-[57.6px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                   <TypeAnimation
                     sequence={[
                       "MERN Stack Developer",
