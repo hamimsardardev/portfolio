@@ -20,10 +20,10 @@ export function CarouselSize() {
         loop: true,
       }}
       plugins={[Autoplay({ delay: 2000, stopOnInteraction: false })]}
-      className="container mx-auto"
+      className="container mx-auto "
     >
-      <CarouselContent className="flex">
-        <CarouselItem className="basis-1/4">
+      <CarouselContent className="flex overflow-visible">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/4">
           <Card>
             <CardContent>
               <div>
@@ -32,7 +32,7 @@ export function CarouselSize() {
                   alt="blogimage1"
                   height={226}
                   width={312}
-                  className="rounded-tl-xl rounded-tr-xl"
+                  className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
@@ -47,7 +47,7 @@ export function CarouselSize() {
           </Card>
         </CarouselItem>
 
-        <CarouselItem className="basis-1/4">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/4">
           <Card>
             <CardContent>
               <div>
@@ -56,7 +56,7 @@ export function CarouselSize() {
                   alt="blogimage2"
                   height={226}
                   width={312}
-                  className="rounded-tl-xl rounded-tr-xl"
+                  className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
@@ -71,7 +71,7 @@ export function CarouselSize() {
           </Card>
         </CarouselItem>
 
-        <CarouselItem className="basis-1/4">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/4">
           <Card>
             <CardContent>
               <div>
@@ -80,7 +80,7 @@ export function CarouselSize() {
                   alt="blogimage3"
                   height={226}
                   width={330}
-                  className="rounded-tl-xl rounded-tr-xl w-auto"
+                  className="w-full rounded-tl-xl rounded-tr-xl "
                   style={{ width: "100%", height: "auto" }}
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
@@ -96,7 +96,7 @@ export function CarouselSize() {
           </Card>
         </CarouselItem>
 
-        <CarouselItem className="basis-1/4">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/4">
           <Card>
             <CardContent>
               <div>
@@ -105,7 +105,7 @@ export function CarouselSize() {
                   alt="blogimage4"
                   height={226}
                   width={312}
-                  className="rounded-tl-xl rounded-tr-xl"
+                  className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
@@ -119,7 +119,7 @@ export function CarouselSize() {
             </CardContent>
           </Card>
         </CarouselItem>
-        <CarouselItem className="basis-1/4">
+        <CarouselItem className="md:basis-1/2 lg:basis-1/4">
           <Card>
             <CardContent>
               <div>
@@ -128,7 +128,7 @@ export function CarouselSize() {
                   alt="blogimage2"
                   height={226}
                   width={312}
-                  className="rounded-tl-xl rounded-tr-xl"
+                  className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">

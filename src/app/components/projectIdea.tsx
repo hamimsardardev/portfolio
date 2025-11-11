@@ -7,7 +7,7 @@ const ProjectIdea = () => {
       <section className="relative bg-[url('/letsdoimage.jpg')] bg-cover bg-center">
         <div className="bg-[#0B043A]/50">
           <div className="container">
-            <div className="text-center py-[100px] relative">
+            <div className="text-center py-12 md:py-[70px] lg:py-[100px] relative">
               <motion.div
                 className="absolute bubble top-10 left-10 w-6 h-6 rounded-full bg-[#2cb86f]/70"
                 animate={{ y: [0, -20, 0] }}
@@ -28,7 +28,7 @@ const ProjectIdea = () => {
               />
 
               <motion.h4
-                className="font-dmSans text-[48px] font-semibold leading-[56px] w-[619px] mx-auto text-primary animate-gradient"
+                className="font-dmSans text-[24px] md:text-[36px] lg:text-[48px] font-semibold leading-[24px] md:leading-[40px] lg:leading-[56px] w-auto md:w-[450px] lg:w-[619px] mx-auto text-primary animate-gradient"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -38,7 +38,7 @@ const ProjectIdea = () => {
               </motion.h4>
 
               <motion.p
-                className="font-dmSans text-[18px] font-regular leading-[24px] text-primarytwo py-8 mx-auto w-[615px]"
+                className="font-dmSans text-[15px] md:text-[16px] lg:text-[18px] font-regular leading-[20px] lg:leading-[24px] text-primarytwo py-4 md:py-6 lg:py-8 mx-auto w-auto md:w-[525px] lg:w-[615px]"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}

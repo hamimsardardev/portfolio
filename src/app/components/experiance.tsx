@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
@@ -17,7 +19,7 @@ const Experiance = () => {
           >
             <div className="flex flex-col items-center justify-between">
               <h2 className="font-dmSans text-[64px] mb-2 font-regular leading-[64px] text-primary">
-                <CountUp start={0} end={5} duration={2} redraw={true} enableScrollSpy={true} />Y
+                <CountUp start={0} end={5} duration={2} redraw={true} enableScrollSpy={false} />Y
               </h2>
               <p className="font-dmSans text-[16px] font-regular leading-[24px] text-primary">
                 Experience
@@ -26,7 +28,7 @@ const Experiance = () => {
 
             <div className="flex flex-col items-center justify-between">
               <h2 className="font-dmSans text-[64px] mb-2 font-regular leading-[64px] text-primary">
-                <CountUp start={0} end={15} duration={2} redraw={true} enableScrollSpy={true} />+
+                <CountUp start={0} end={15} duration={2} redraw={true} enableScrollSpy={false} />+
               </h2>
               <p className="font-dmSans text-[16px] font-regular leading-[24px] text-primary">
                 Project Completed
@@ -35,7 +37,7 @@ const Experiance = () => {
 
             <div className="flex flex-col items-center justify-between">
               <h2 className="font-dmSans text-[64px] mb-2 font-regular leading-[64px] text-primary">
-                <CountUp start={0} end={5} duration={2} redraw={true} enableScrollSpy={true} />
+                <CountUp start={0} end={5} duration={2} redraw={true} enableScrollSpy={false} />
               </h2>
               <p className="font-dmSans text-[16px] font-regular leading-[24px] text-primary">
                 Happy Client

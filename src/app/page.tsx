@@ -44,9 +44,9 @@ const Home: React.FC = () => {
       <MySkill />
       <Portfolio />
       <Experiance />
-      {/* <ProjectIdea />
+      <ProjectIdea />
       <Blog />
-      <DoPart />
+      {/* <DoPart />
       <ClientsPart />
       <Testmonial/>
       <Contact_Part />

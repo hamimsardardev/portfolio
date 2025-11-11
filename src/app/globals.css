@@ -12,7 +12,7 @@
 }
 
 .buttontwo {
-  @apply px-6 py-3 font-roboto text-[16px] font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent cursor-pointer transition duration-300 group-hover:text-primary;
+  @apply px-3 py-2 md:px-4 md:py-2 lg:px-6 lg:py-3 font-roboto text-[14px] lg:text-[16px] md:font-medium lg:font-semibold leading-[21px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent cursor-pointer transition duration-300 group-hover:text-primary;
 }
 
 :root {
