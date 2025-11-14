@@ -5,8 +5,8 @@ const DoPart = () => {
   return (
     <>
       <section>
-        <div className="container">
-          <div className="grid grid-cols-2 gap-5 py-[150px] border-b-1 border-seconerycolor">
+        <div className="container overflow-hidden">
+          <div className="grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-3 lg:gap-5 py-[80px] md:py-[100px] lg:py-[150px] border-b-1 border-seconerycolor">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -21,7 +21,7 @@ const DoPart = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
-                className="font-roboto text-[48px] font-semibold pb-6 leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
+                className="font-roboto text-[30px] md:text-[36px] lg:text-[48px] font-semibold pb-3 md:pb-4 lg:pb-6 leading-[30p] md:leading-[36px] lg:leading-[56px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
               >
                 What I do?
               </motion.h2>
@@ -30,17 +30,17 @@ const DoPart = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo [w-500px]"
+                className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto md:[420px] lg:[w-500px]"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 purus arcu, varius eget velit non, laoreet imperdiet orci.
                 Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
-                <span className="block font-roboto text-[18px] mt-4 font-normal leading-[24px]">
+                <span className="block font-roboto text-[14px] md:text-[16px] lg:text-[18px] mt-4 font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   purus arcu, varius eget velit non.
                 </span>
               </motion.p>
-              <div className="mt-[50px]">
+              <div className="mt-[30px] md:mt-[36px] lg:mt-[50px]">
                 <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                   <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
                     <motion.button

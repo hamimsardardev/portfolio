@@ -46,11 +46,11 @@ const Home: React.FC = () => {
       <Experiance />
       <ProjectIdea />
       <Blog />
-      {/* <DoPart />
+      <DoPart />
       <ClientsPart />
       <Testmonial/>
-      <Contact_Part />
-      <Footer />  */}
+      {/* <Contact_Part /> */}
+      {/* <Footer />  */}
     </>
   );
 };

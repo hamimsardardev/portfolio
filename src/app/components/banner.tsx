@@ -9,7 +9,7 @@ const Banner = () => {
     <>
       <section>
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:text-left lg:grid-cols-2 justify-center items-center lg:pt-[220px] pt-[120px] ">
+          <div className="grid grid-cols-1 md:grid-cols-2 md:text-left lg:grid-cols-2 justify-center items-center lg:pt-[150px] pt-[120px] ">
             <motion.div
               initial={{ opacity: 0, x: -80 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -82,13 +82,13 @@ const Banner = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: false }}
               transition={{ duration: 1, ease: "easeOut" }}
-              className="flex justify-center items-center"
+              className="flex justify-center items-center "
             >
               <Image
-                src="/hero-img.jpg"
+                src="/hero-img.png"
                 alt="hero-img"
-                height={600}
-                width={601}
+                height={700}
+                width={801}
                 className="w-auto lg:w-full"
               />
             </motion.div>

@@ -25,7 +25,7 @@ const Portfolio = () => {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="container overflow-hidden">
           <div className="border-b-1 border-seconerycolor py-12 md:py-[60px] lg:py-[90px]">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
