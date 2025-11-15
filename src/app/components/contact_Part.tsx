@@ -24,14 +24,14 @@ const Contact_Part = () => {
       <section>
         <div className="container">
           <div className="rounded-[15px]">
-            <div className="grid grid-cols-2 px-[88px] py-[88px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  py-12 md:py-16 lg:py-[88px]">
               <motion.div
                 initial={{ opacity: 0, x: -80 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <motion.h3
-                  className="font-roboto text-[38px] font-semibold leading-[50px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
+                  className="font-roboto text-[24px] md:text-[30px] lg:text-[38px] font-normal md:font-semibold lg:font-semibold leading-[28px] md:leading-[36px] lg:leading-[50px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
@@ -39,7 +39,7 @@ const Contact_Part = () => {
                   Let’s discuss your Project
                 </motion.h3>
                 <motion.p
-                  className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo mt-4 w-[481px]"
+                  className="font-roboto text-14px md:text-[16px] lg:text-[18px] font-normal leading-[16px] md:leading-[20px] lg:leading-[24px] text-primarytwo mt-4 w-auto lg:w-[481px]"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
@@ -47,17 +47,17 @@ const Contact_Part = () => {
                   There are many variations of passages of Lorem Ipsu available.
                   but the majority have suffered alte.
                 </motion.p>
-                <div className="py-[35px] flex flex-col gap-3">
+                <div className="py-6 md:py-7 lg:py-[35px] flex flex-col gap-3">
                   <motion.div
                     whileHover={{
                       scale: 1.05,
                       boxShadow: "0 15px 30px rgba(0,0,0,0.2)",
                     }}
                     transition={{ type: "spring", stiffness: 300 }}
-                    className="w-[390px] border-2 border-primary"
+                    className="w-auto md:w-[300px] lg:w-[390px] border-2 border-primary"
                   >
-                    <div className="flex gap-[13px] py-6 pl-6 items-center hover:shadow-xl/20 hover:bg-secondery ">
-                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px]">
+                    <div className="flex gap-[13px] py-3 md:py-4 lg:py-6  pl-3 md:pl-4 lg:pl-6 items-center hover:shadow-xl/20 hover:bg-secondery ">
+                      <div className="group py-3 md:py-4 lg:py-[20px] px-3 md:px-4 lg:px-[20px] border-2 border-primary inline-block rounded-[6px]">
                         <MdOutlineLocationOn className="h-[32px] w-[32px] text-primary " />
                       </div>
                       <div>
@@ -70,38 +70,38 @@ const Contact_Part = () => {
                       </div>
                     </div>
                   </motion.div>
-                  <div className="w-[390px] border-2 border-primary">
+                  <div className="w-auto md:w-[300px] lg:w-[390px] border-2 border-primary">
                     <motion.div
                       whileHover={{
                         scale: 1.05,
                         boxShadow: "0 15px 30px rgba(0,0,0,0.2)",
                       }}
                       transition={{ type: "spring", stiffness: 300 }}
-                      className="flex gap-[13px] py-6 pl-6 items-center hover:shadow-xl/20 hover:bg-secondery"
+                      className="flex gap-[13px] py-3 md:py-4 lg:py-6  pl-3 md:pl-4 lg:pl-6 items-center hover:shadow-xl/20 hover:bg-secondery"
                     >
-                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px]">
+                      <div className="group py-3 md:py-4 lg:py-[20px] px-3 md:px-4 lg:px-[20px] border-2 border-primary inline-block rounded-[6px]">
                         <MdOutlineMarkEmailUnread className="h-[32px] w-[32px] text-primary" />
                       </div>
                       <div>
                         <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-primary">
                           Email:
                         </p>
-                        <h5 className="font-roboto text-[16px] font-medium leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
+                        <h5 className="font-roboto text-[14px] md:text-[14px] break-all lg:text-[16px] font-medium lg:leading-[24px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                           hamimsardar@118677@gmail.com
                         </h5>
                       </div>
                     </motion.div>
                   </div>
-                  <div className="w-[390px] border-2 border-primary">
+                  <div className="w-auto md:w-[300px] lg:w-[390px] border-2 border-primary">
                     <motion.div
                       whileHover={{
                         scale: 1.05,
                         boxShadow: "0 15px 30px rgba(0,0,0,0.2)",
                       }}
                       transition={{ type: "spring", stiffness: 300 }}
-                      className="flex gap-[13px] py-6 pl-6 items-center hover:shadow-xl/20 hover:bg-secondery "
+                      className="flex gap-[13px] py-3 md:py-4 lg:py-6  pl-3 md:pl-4 lg:pl-6 items-center hover:shadow-xl/20 hover:bg-secondery "
                     >
-                      <div className="group py-[20px] px-[20px] border-2 border-primary inline-block rounded-[6px]">
+                      <div className="group py-3 md:py-4 lg:py-[20px] px-3 md:px-4 lg:px-[20px] border-2 border-primary inline-block rounded-[6px]">
                         <MdAddCall className="h-[32px] w-[32px] text-primary" />
                       </div>
                       <div>
@@ -174,13 +174,13 @@ const Contact_Part = () => {
               >
                 <motion.p
                   variants={fadeInUp}
-                  className="font-roboto text-[18px] font-normal leading-[24px] text-primarytwo w-[530px]"
+                  className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-[18px] md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto lg:w-[530px]"
                 >
                   There are many variations of passages of Lorem Ipsu available,
                   but the majority have suffered alte.
                 </motion.p>
 
-                <div className="mt-[50px]">
+                <div className="mt-[36px] md:mt-[40px] lg:mt-[50px]">
                   <motion.form
                     variants={staggerContainer}
                     className="rounded-2xl"
@@ -214,7 +214,7 @@ const Contact_Part = () => {
                     </motion.div>
 
                     <motion.div variants={fadeInUp} className="mb-6">
-                      <label className="block text-primary font-medium mb-1">
+                      <label className="lg:block text-primary font-medium mb-1">
                         Location*
                       </label>
                       <div className="group rounded-[8px] bg-[#101535] hover:bg-[#101535]/50 transition duration-300">
@@ -228,7 +228,7 @@ const Contact_Part = () => {
 
                     <motion.div
                       variants={fadeInUp}
-                      className="flex justify-between mb-6 gap-6"
+                      className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6"
                     >
                       <div className="w-full">
                         <label className="block text-primary font-medium mb-1">

@@ -16,9 +16,9 @@ const Services = () => {
   };
   return (
     <>
-      <section className="">
+      <section>
         <div className="container overflow-hidden">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2 justify-center items-center border-b-1 border-seconerycolor py-16 lg:py-[140px]">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-1 lg:grid-cols-2  lg:justify-center lg:items-center border-b-1 border-seconerycolor py-16 lg:py-[140px]">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -27,6 +27,7 @@ const Services = () => {
                 duration: 1.2,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
+              className="flex flex-col text-center md:text-center lg:text-start"
             >
               <h3 className="font-roboto text-[24px] font-semibold leading-[22px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent">
                 Services
@@ -34,7 +35,7 @@ const Services = () => {
               <h2 className="font-roboto text-[30px] font-semibold leading-[35px] mt-3 text-primary mb-4">
                 What I Provide
               </h2>
-              <p className="font-roboto text-[14px] leading-[20px] lg:text-[16px] font-normal lg:leading-[24px] text-primary w-auto lg:w-[529px]">
+              <p className="font-roboto text-[14px] leading-[20px] lg:text-[16px] font-normal lg:leading-[24px] text-primary  w-auto md:w-[480px] mx-auto md:mx-auto lg:mx-0 lg:w-[529px]">
                 I have developed and maintained websites and web applications
                 for a variety of clients using the MERN stack (MongoDB,
                 Express.js, React.js, Node.js). I have built Chatting

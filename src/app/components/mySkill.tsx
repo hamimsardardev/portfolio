@@ -18,7 +18,7 @@ const MySkill = () => {
               in Node.js.
             </p>
             <div className="flex flex-col justify-center items-center">
-              <div className=" grid grid-cols-2 gap-4 md:grid-cols-3 lg:flex lg:gap-[100px] justify-center items-center">
+              <div className=" grid grid-cols-2 gap-4 md:grid-cols-4 lg:flex lg:gap-[100px] justify-center items-center">
                 <Image
                   className="border-2 border-primarytwo py-4 px-4 rounded-full"
                   src="/html.png"
@@ -27,51 +27,51 @@ const MySkill = () => {
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full"
                   src="/css.png"
                   alt="css.png"
                   height={100}
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full"
                   src="/js.png"
                   alt="js.png"
                   height={100}
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full flex justify-end"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full flex justify-end"
                   src="/react.png"
                   alt="react.png"
                   height={100}
                   width={100}
                 />
               </div>
-              <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:flex lg:gap-[100px] justify-center items-center mt-6">
+              <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:flex lg:gap-[100px] justify-center items-center mt-6">
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full"
                   src="/vscode.png"
                   alt="vscode.png"
                   height={100}
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full text-primarytwo"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full text-primarytwo"
                   src="/git.png"
                   alt="git.png"
                   height={100}
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full"
                   src="/github.png"
                   alt="github.png"
                   height={100}
                   width={100}
                 />
                 <Image
-                  className="border-2 border-primarytwo py-4 px-4 rounded-full"
+                  className="border-2 border-primarytwo py-2 md:py-3 lg:py-4 px-2 md:px-3 lg:px-4 rounded-full"
                   src="/bootstrap.png"
                   alt="bootstrap.png"
                   height={100}

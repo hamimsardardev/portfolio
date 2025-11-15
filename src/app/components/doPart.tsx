@@ -15,6 +15,7 @@ const DoPart = () => {
                 duration: 1.2,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
+              className="flex flex-col text-center md:text-center lg:text-start"
             >
               <motion.h2
                 initial={{ opacity: 0, y: 50 }}
@@ -30,7 +31,7 @@ const DoPart = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto md:[420px] lg:[w-500px]"
+                className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto md:mx-auto lg:mx-0 md:w-[480px] lg:[w-500px]"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 purus arcu, varius eget velit non, laoreet imperdiet orci.

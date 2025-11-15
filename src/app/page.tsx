@@ -49,8 +49,8 @@ const Home: React.FC = () => {
       <DoPart />
       <ClientsPart />
       <Testmonial/>
-      {/* <Contact_Part /> */}
-      {/* <Footer />  */}
+      <Contact_Part />
+      <Footer /> 
     </>
   );
 };

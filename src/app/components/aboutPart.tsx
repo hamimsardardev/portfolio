@@ -24,33 +24,54 @@ const AboutPart = () => {
                   height={424}
                   width={464}
                 />
+                
                 <div className="py-3 px-3 bg-primarytwo/50 inline-block rounded-[8px] absolute left-[35px] bottom-[-25px] md:left-[30px] lg:left-[85px] lg:bottom-[-35px]">
                   <ul className="flex gap-1 lg:gap-2 ">
-                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                     <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#193CB8] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
-                        <FaFacebookF className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
+                        <FaFacebookF className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#007B3D] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
-                        <FaDribbble className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
+                        <FaDribbble className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#F70164] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
-                        <IoLogoInstagram className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
+                        <IoLogoInstagram className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#0A66C2] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
-                        <FaLinkedin className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
+                        <FaLinkedin className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
-                    <li className="py-[10px] px-[10px] md:py-[12px] md:px-[12px] lg:py-[15px] lg:px-[15px] text-primary bg-[#101635] rounded-full hover:bg-[#193CB8] hover:text-primary hover:rounded-full">
+                    </motion.li>
+                    <motion.li
+                      whileHover={{ scale: 1.15, rotate: 5 }}
+                      transition={{ type: "spring", stiffness: 200 }}
+                      className="py-[15px] px-[15px] text-primary bg-[#101635] rounded-full  hover:bg-[#2453FE] hover:text-primary hover:rounded-full"
+                    >
                       <a href="">
-                        <FaBehance className="w-3 h-3 md:h-4 md:w-4 lg:h-[20px] lg:w-[20px]" />
+                        <FaBehance className="h-[20px] w-[20px]" />
                       </a>
-                    </li>
+                    </motion.li>
                   </ul>
                 </div>
               </motion.div>

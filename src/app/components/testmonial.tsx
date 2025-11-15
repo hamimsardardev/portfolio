@@ -191,8 +191,6 @@ const Testmonial = () => {
                   </div>
                 </div>
               </CarouselItem>
-             
-              
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
