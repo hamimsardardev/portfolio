@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const Portfolio = () => {
+const Portfolio_part = () => {
   const cardVariants = {
     right: {
       hidden: { opacity: 0, x: 100 },
@@ -235,4 +235,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portfolio_part;

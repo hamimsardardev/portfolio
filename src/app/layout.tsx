@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { DM_Serif_Display, Roboto } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import Navber from "./components/navber";
+import Footer from "./components/footer";
 
 const dmSans = DM_Serif_Display({
   variable: "--font-dmSans",
@@ -33,7 +35,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Navber />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

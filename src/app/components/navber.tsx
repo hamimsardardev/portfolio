@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { ModeToggle } from "./darkMode";
 import { FaBarsProgress } from "react-icons/fa6";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import Link from "next/link";
 
 const Navber = () => {
   const [navbarshow, setNavbarshow] = useState(false);
@@ -42,21 +43,21 @@ const Navber = () => {
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
                   >
-                    <a href="#">Home</a>
+                    <Link href="/">Home</Link>
                   </motion.li>
                   <motion.li
                     className="font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent  text-[16px] leading-[24px]  hover:text-primary"
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
                   >
-                    <a href="#">About</a>
+                    <Link href="/aboutme">About</Link>
                   </motion.li>
                   <motion.li
                     className="font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent  text-[16px] leading-[24px]  hover:text-primary"
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
                   >
-                    <a href="#">Services</a>
+                    <Link href="/services">Services</Link>
                   </motion.li>
 
                   <motion.li
@@ -64,14 +65,14 @@ const Navber = () => {
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
                   >
-                    <a href="#">Skills</a>
+                    <Link href="/skills">Skills</Link>
                   </motion.li>
                   <motion.li
                     className="font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[16px] leading-[24px]  hover:text-primary"
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 100 }}
                   >
-                    <a href="#">Portfolio</a>
+                    <Link href="/portfolio">Portfolio</Link>
                   </motion.li>
                 </ul>
               </div>
@@ -82,9 +83,11 @@ const Navber = () => {
               {/* -------- Desktop Button -------- */}
               <div className="hidden lg:inline-block p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf]">
                 <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                  <button className="font-roboto font-semibold text-white py-2 px-6 text-[16px] tracking-wide">
-                    CONTACT ME
-                  </button>
+                  <Link href="/contactme">
+                    <button className="font-roboto font-semibold text-white py-2 px-6 text-[16px] tracking-wide">
+                      CONTACT ME
+                    </button>
+                  </Link>
                 </div>
               </div>
 
@@ -115,25 +118,27 @@ const Navber = () => {
               className="fixed top-[80px] right-[20px] w-[80%] sm:w-[60%] bg-white border-primary rounded-2xl shadow-lg p-6 items-center flex flex-col gap-6 z-[9998] backdrop-blur-md"
             >
               <li className="list-none font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[17px] leading-[24px] hover:scale-110 transition-transform">
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li className="list-none font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[17px] leading-[24px] hover:scale-110 transition-transform">
-                <a href="#">About</a>
+                <Link href="/aboutme">About</Link>
               </li>
               <li className="list-none font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[17px] leading-[24px] hover:scale-110 transition-transform">
-                <a href="#">Services</a>
+                <Link href="/services">Services</Link>
               </li>
               <li className="list-none font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[17px] leading-[24px] hover:scale-110 transition-transform">
-                <a href="#">Skills</a>
+                <Link href="/aboutme">Skills</Link>
               </li>
               <li className="list-none font-roboto font-semibold bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent text-[17px] leading-[24px] hover:scale-110 transition-transform">
-                <a href="#">Portfolio</a>
+                <Link href="/portfolio">Portfolio</Link>
               </li>
 
               {/* -------- Contact Button নিচে -------- */}
               <div className="p-[2px] rounded-[8px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] inline-block">
                 <div className="group rounded-[8px] bg-third hover:bg-secondery transition duration-300">
-                  <button className="button">CONTACT ME</button>
+                  <Link href="/contactme" className="button">
+                    CONTACT ME
+                  </Link>
                 </div>
               </div>
             </motion.div>

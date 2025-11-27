@@ -1,9 +1,10 @@
 import React from 'react'
+import Portfolio_part from '../components/portfolio'
 
 const Portfolio = () => {
   return (
     <div>
-      this is porfolio page
+     <Portfolio_part/>
     </div>
   )
 }

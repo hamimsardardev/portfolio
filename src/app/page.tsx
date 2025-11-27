@@ -2,20 +2,18 @@
 
 import React from "react";
 import { motion, useScroll } from "framer-motion";
-import Navber from "./components/navber";
 import Banner from "./components/banner";
-import Portfolio from "./components/portfolio";
 import ProjectIdea from "./components/projectIdea";
 import Blog from "./components/blog";
 import DoPart from "./components/doPart";
 import ClientsPart from "./components/clientsPart";
 import MySkill from "./components/mySkill";
 import Contact_Part from "./components/contact_Part";
-import Footer from "./components/footer";
 import Services from "./components/services";
 import AboutPart from "./components/aboutPart";
 import Experiance from "./components/experiance";
 import Testmonial from "./components/testmonial";
+import Portfolio_part from "./components/portfolio";
 
 const Home: React.FC = () => {
   const { scrollYProgress } = useScroll();
@@ -37,20 +35,18 @@ const Home: React.FC = () => {
         }}
       />
 
-      <Navber />
       <Banner />
       <AboutPart />
       <Services />
       <MySkill />
-      <Portfolio />
+      <Portfolio_part/>
       <Experiance />
       <ProjectIdea />
       <Blog />
       <DoPart />
       <ClientsPart />
-      <Testmonial/>
+      <Testmonial />
       <Contact_Part />
-      <Footer /> 
     </>
   );
 };

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { MdAddCall, MdOutlineLocationOn } from "react-icons/md";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
