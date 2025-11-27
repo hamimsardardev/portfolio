@@ -1,8 +1,14 @@
-"use client"
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const DoPart = () => {
+  
+  const [openItem, setOpenItem] = useState(1); // 1 মানে প্রথমটা ডিফল্ট ওপেন (তোমার কোডে ছিল)
+
+  const toggleItem = (id: number) => {
+    setOpenItem(openItem === id ? 0 : id); // একই আইটেমে ক্লিক করলে বন্ধ, অন্যটায় ক্লিক করলে ওপেন
+  };
+
   return (
     <>
       <section>
@@ -68,12 +74,14 @@ const DoPart = () => {
               }}
             >
               <div id="accordion-open" data-accordion="open">
+                {/* Item 1 - User Experience (UX) */}
                 <h2 id="accordion-open-heading-1">
                   <button
                     type="button"
+                    onClick={() => toggleItem(1)}
                     className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                     data-accordion-target="#accordion-open-body-1"
-                    aria-expanded="true"
+                    aria-expanded={openItem === 1}
                     aria-controls="accordion-open-body-1"
                   >
                     <span className="flex items-center">
@@ -92,8 +100,10 @@ const DoPart = () => {
                       User Experience (UX)
                     </span>
                     <svg
-                      data-accordion-icon=""
-                      className="w-3 h-3 rotate-180 shrink-0"
+                      data-accordion-icon
+                      className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
+                        openItem === 1 ? "rotate-180" : ""
+                      }`}
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -111,7 +121,7 @@ const DoPart = () => {
                 </h2>
                 <div
                   id="accordion-open-body-1"
-                  className="hidden"
+                  className={openItem === 1 ? "block" : "hidden"}
                   aria-labelledby="accordion-open-heading-1"
                 >
                   <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
@@ -133,12 +143,15 @@ const DoPart = () => {
                     </p>
                   </div>
                 </div>
+
+                {/* Item 2 - User Interface (UI) */}
                 <h2 id="accordion-open-heading-2">
                   <button
                     type="button"
+                    onClick={() => toggleItem(2)}
                     className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                     data-accordion-target="#accordion-open-body-2"
-                    aria-expanded="false"
+                    aria-expanded={openItem === 2}
                     aria-controls="accordion-open-body-2"
                   >
                     <span className="flex items-center">
@@ -157,8 +170,10 @@ const DoPart = () => {
                       User Interface (UI)
                     </span>
                     <svg
-                      data-accordion-icon=""
-                      className="w-3 h-3 rotate-180 shrink-0"
+                      data-accordion-icon
+                      className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
+                        openItem === 2 ? "rotate-180" : ""
+                      }`}
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -176,7 +191,7 @@ const DoPart = () => {
                 </h2>
                 <div
                   id="accordion-open-body-2"
-                  className="hidden"
+                  className={openItem === 2 ? "block" : "hidden"}
                   aria-labelledby="accordion-open-heading-2"
                 >
                   <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -198,12 +213,15 @@ const DoPart = () => {
                     </p>
                   </div>
                 </div>
+
+                {/* Item 3 */}
                 <h2 id="accordion-open-heading-3">
                   <button
                     type="button"
+                    onClick={() => toggleItem(3)}
                     className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
                     data-accordion-target="#accordion-open-body-3"
-                    aria-expanded="false"
+                    aria-expanded={openItem === 3}
                     aria-controls="accordion-open-body-3"
                   >
                     <span className="flex items-center">
@@ -222,8 +240,10 @@ const DoPart = () => {
                       What are the differences between Flowbite and Tailwind UI?
                     </span>
                     <svg
-                      data-accordion-icon=""
-                      className="w-3 h-3 rotate-180 shrink-0"
+                      data-accordion-icon
+                      className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
+                        openItem === 3 ? "rotate-180" : ""
+                      }`}
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -241,7 +261,7 @@ const DoPart = () => {
                 </h2>
                 <div
                   id="accordion-open-body-3"
-                  className="hidden"
+                  className={openItem === 3 ? "block" : "hidden"}
                   aria-labelledby="accordion-open-heading-3"
                 >
                   <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
