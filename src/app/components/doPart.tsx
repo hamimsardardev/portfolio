@@ -2,18 +2,17 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const DoPart = () => {
-  
-  const [openItem, setOpenItem] = useState(1); // 1 মানে প্রথমটা ডিফল্ট ওপেন (তোমার কোডে ছিল)
+  const [openItem, setOpenItem] = useState(1);
 
   const toggleItem = (id: number) => {
-    setOpenItem(openItem === id ? 0 : id); // একই আইটেমে ক্লিক করলে বন্ধ, অন্যটায় ক্লিক করলে ওপেন
+    setOpenItem(openItem === id ? 0 : id);
   };
 
   return (
     <>
       <section>
         <div className="container overflow-hidden">
-          <div className="grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-3 lg:gap-5 py-[80px] md:py-[100px] lg:py-[150px] border-b-1 border-seconerycolor">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-3 lg:gap-5 justify-center items-center py-[80px] md:py-[100px] lg:py-[150px] border-b-1 border-seconerycolor">
             <motion.div
               initial={{ opacity: 0, y: 80, filter: "blur(8px)" }}
               whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -40,12 +39,9 @@ const DoPart = () => {
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="font-roboto text-[14px] md:text-[16px] lg:text-[18px] font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto md:mx-auto lg:mx-0 md:w-[480px] lg:[w-500px]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                purus arcu, varius eget velit non, laoreet imperdiet orci.
-                Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,
+                I love bringing ideas to life on the web. I take simple designs and turn them into clean, smooth, and responsive websites that work beautifully on any device. Using tools like HTML, CSS, JavaScript, React, and Next.js, I build pages that feel modern, fast, and fun to use.
                 <span className="block font-roboto text-[14px] md:text-[16px] lg:text-[18px] mt-4 font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  purus arcu, varius eget velit non.
+                  My focus is on creating user-friendly experiences—small animations, clean layouts, and easy navigation—so every visitor enjoys the website from the first click to the last scroll.
                 </span>
               </motion.p>
               <div className="mt-[30px] md:mt-[36px] lg:mt-[50px]">
@@ -75,142 +71,145 @@ const DoPart = () => {
             >
               <div id="accordion-open" data-accordion="open">
                 {/* Item 1 - User Experience (UX) */}
-                <h2 id="accordion-open-heading-1">
-                  <button
-                    type="button"
-                    onClick={() => toggleItem(1)}
-                    className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                    data-accordion-target="#accordion-open-body-1"
-                    aria-expanded={openItem === 1}
-                    aria-controls="accordion-open-body-1"
-                  >
-                    <span className="flex items-center">
+                <div className="mb-2">
+                  <h2 id="accordion-open-heading-1">
+                    <button
+                      type="button"
+                      onClick={() => toggleItem(1)}
+                      className="flex items-center justify-between w-full p-4 font-medium text-right border text-primarytwocolor  rounded-t-xl hover:bg-primary hover:text-secondary-foreground dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400  dark:hover:bg-gray-800 gap-3"
+                      data-accordion-target="#accordion-open-body-1"
+                      aria-expanded={openItem === 1}
+                      aria-controls="accordion-open-body-1"
+                    >
+                      <span className="flex items-center">
+                        <svg
+                          className="w-5 h-5 me-2 shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                            clipRule="evenodd"
+                          />
+                        </svg>{" "}
+                        User Experience (UX)
+                      </span>
                       <svg
-                        className="w-5 h-5 me-2 shrink-0"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
+                        data-accordion-icon
+                        className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
+                          openItem === 1 ? "rotate-180" : ""
+                        }`}
+                        aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 10 6"
                       >
                         <path
-                          fillRule="evenodd"
-                          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                          clipRule="evenodd"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5 5 1 1 5"
                         />
-                      </svg>{" "}
-                      User Experience (UX)
-                    </span>
-                    <svg
-                      data-accordion-icon
-                      className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
-                        openItem === 1 ? "rotate-180" : ""
-                      }`}
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 10 6"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5 5 1 1 5"
-                      />
-                    </svg>
-                  </button>
-                </h2>
-                <div
-                  id="accordion-open-body-1"
-                  className={openItem === 1 ? "block" : "hidden"}
-                  aria-labelledby="accordion-open-heading-1"
-                >
-                  <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                    <p className="mb-2 text-gray-500 dark:text-gray-400">
-                      Flowbite is an open-source library of interactive
-                      components built on top of Tailwind CSS including buttons,
-                      dropdowns, modals, navbars, and more.
-                    </p>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Check out this guide to learn how to{" "}
-                      <a
-                        href="/docs/getting-started/introduction/"
-                        className="text-blue-600 dark:text-blue-500 hover:underline"
-                      >
-                        get started
-                      </a>{" "}
-                      and start developing websites even faster with components
-                      on top of Tailwind CSS.
-                    </p>
+                      </svg>
+                    </button>
+                  </h2>
+                  <div
+                    id="accordion-open-body-1"
+                    className={openItem === 1 ? "block" : "hidden"}
+                    aria-labelledby="accordion-open-heading-1"
+                  >
+                    <div className="p-5 mb-2 border rounded-b-2xl border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Flowbite is an open-source library of interactive
+                        components built on top of Tailwind CSS including
+                        buttons, dropdowns, modals, navbars, and more.
+                      </p>
+                      <p className="text-gray-500 dark:text-gray-400">
+                        Check out this guide to learn how to{" "}
+                        <a
+                          href="/docs/getting-started/introduction/"
+                          className="text-blue-600 dark:text-blue-500 hover:underline"
+                        >
+                          get started
+                        </a>{" "}
+                        and start developing websites even faster with
+                        components on top of Tailwind CSS.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
-                {/* Item 2 - User Interface (UI) */}
-                <h2 id="accordion-open-heading-2">
-                  <button
-                    type="button"
-                    onClick={() => toggleItem(2)}
-                    className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                    data-accordion-target="#accordion-open-body-2"
-                    aria-expanded={openItem === 2}
-                    aria-controls="accordion-open-body-2"
-                  >
-                    <span className="flex items-center">
+                <div className="mb-2">
+                  <h2 id="accordion-open-heading-2">
+                    <button
+                      type="button"
+                      onClick={() => toggleItem(2)}
+                      className="flex items-center justify-between w-full p-4 font-medium text-right border text-primarytwocolor   rounded-t-xl hover:bg-primary hover:text-secondary-foreground dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400  dark:hover:bg-gray-800 gap-3"
+                      data-accordion-target="#accordion-open-body-2"
+                      aria-expanded={openItem === 2}
+                      aria-controls="accordion-open-body-2"
+                    >
+                      <span className="flex items-center">
+                        <svg
+                          className="w-5 h-5 me-2 shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                        User Interface (UI)
+                      </span>
                       <svg
-                        className="w-5 h-5 me-2 shrink-0"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
+                        data-accordion-icon
+                        className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
+                          openItem === 2 ? "rotate-180" : ""
+                        }`}
+                        aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 10 6"
                       >
                         <path
-                          fillRule="evenodd"
-                          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                          clipRule="evenodd"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M9 5 5 1 1 5"
                         />
                       </svg>
-                      User Interface (UI)
-                    </span>
-                    <svg
-                      data-accordion-icon
-                      className={`w-3 h-3 shrink-0 transition-transform duration-200 ${
-                        openItem === 2 ? "rotate-180" : ""
-                      }`}
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 10 6"
-                    >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5 5 1 1 5"
-                      />
-                    </svg>
-                  </button>
-                </h2>
-                <div
-                  id="accordion-open-body-2"
-                  className={openItem === 2 ? "block" : "hidden"}
-                  aria-labelledby="accordion-open-heading-2"
-                >
-                  <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-                    <p className="mb-2 text-gray-500 dark:text-gray-400">
-                      Flowbite is first conceptualized and designed using the
-                      Figma software so everything you see in the library has a
-                      design equivalent in our Figma file.
-                    </p>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Check out the{" "}
-                      <a
-                        href="https://flowbite.com/figma/"
-                        className="text-blue-600 dark:text-blue-500 hover:underline"
-                      >
-                        Web Development
-                      </a>{" "}
-                      based on the utility classes from Tailwind CSS and
-                      components from Flowbite.
-                    </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="accordion-open-body-2"
+                    className={openItem === 2 ? "block" : "hidden"}
+                    aria-labelledby="accordion-open-heading-2"
+                  >
+                    <div className="p-5 mb-2 border rounded-b-2xl border-gray-200 dark:border-gray-700">
+                      <p className="mb-2 text-gray-500 dark:text-gray-400">
+                        Flowbite is first conceptualized and designed using the
+                        Figma software so everything you see in the library has
+                        a design equivalent in our Figma file.
+                      </p>
+                      <p className="text-gray-500 dark:text-gray-400">
+                        Check out the{" "}
+                        <a
+                          href="https://flowbite.com/figma/"
+                          className="text-blue-600 dark:text-blue-500 hover:underline"
+                        >
+                          Web Development
+                        </a>{" "}
+                        based on the utility classes from Tailwind CSS and
+                        components from Flowbite.
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -219,7 +218,7 @@ const DoPart = () => {
                   <button
                     type="button"
                     onClick={() => toggleItem(3)}
-                    className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+                    className="flex items-center justify-between w-full p-4 font-medium text-right border text-primarytwocolor  rounded-t-xl hover:bg-primary hover:text-secondary-foreground dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400  dark:hover:bg-gray-800 gap-3"
                     data-accordion-target="#accordion-open-body-3"
                     aria-expanded={openItem === 3}
                     aria-controls="accordion-open-body-3"
@@ -264,7 +263,7 @@ const DoPart = () => {
                   className={openItem === 3 ? "block" : "hidden"}
                   aria-labelledby="accordion-open-heading-3"
                 >
-                  <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                  <div className="p-5 mb-2 border rounded-b-2xl border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">
                       The main difference is that the core components from
                       Flowbite are open source under the MIT license, whereas
