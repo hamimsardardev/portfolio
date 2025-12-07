@@ -41,7 +41,7 @@ const DoPart = () => {
               >
                 I love bringing ideas to life on the web. I take simple designs and turn them into clean, smooth, and responsive websites that work beautifully on any device. Using tools like HTML, CSS, JavaScript, React, and Next.js, I build pages that feel modern, fast, and fun to use.
                 <span className="block font-roboto text-[14px] md:text-[16px] lg:text-[18px] mt-4 font-normal leading-4 md:leading-[20px] lg:leading-[24px] text-primarytwo w-auto">
-                  My focus is on creating user-friendly experiences—small animations, clean layouts, and easy navigation—so every visitor enjoys the website from the first click to the last scroll.
+                  My focus is on creating user friendly experiences small animations, clean layouts, and easy navigation so every visitor enjoys the website from the first click to the last scroll.
                 </span>
               </motion.p>
               <div className="mt-[30px] md:mt-[36px] lg:mt-[50px]">
